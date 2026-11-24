@@ -58,6 +58,22 @@ def validate(records):
                 raise ValueError(f"Internal source cannot enter the public catalogue: {host}")
 
 
+def publication_records(records):
+    published = []
+    for record in records:
+        if record["verification"] == "Needs review":
+            continue
+        item = record.copy()
+        item["evidenceNote"] = item["evidenceNote"].replace(
+            "User-provided SAP Community search excerpt", "SAP Community search listing"
+        ).replace(
+            "Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+            "Attribution follows the search listing; the original page has not been independently reviewed."
+        )
+        published.append(item)
+    return published
+
+
 def standalone(encoded):
     html = (ROOT / "site" / "index.html").read_text(encoding="utf-8")
     css = (ROOT / "site" / "style.css").read_text(encoding="utf-8")
@@ -89,8 +105,10 @@ def main():
     for source in SOURCES:
         records.extend(json.loads((ROOT / "data" / source).read_text(encoding="utf-8")))
     validate(records)
+    research_count = len(records)
+    records = publication_records(records)
     records.sort(key=lambda item: (item["date"] or "", item["id"]), reverse=True)
-    payload = {"collected": "2026-11-24", "scope": "Initial public professional catalogue", "records": records}
+    payload = {"collected": "2026-11-24", "scope": "Public professional catalogue", "records": records}
     encoded = json.dumps(payload, ensure_ascii=True, indent=2)
     (ROOT / "site" / "catalogue.js").write_text("window.CATALOGUE = " + encoded + ";\n", encoding="utf-8")
     (ROOT / "site" / "catalogue.json").write_text(encoded + "\n", encoding="utf-8")
@@ -98,7 +116,7 @@ def main():
         args.standalone.parent.mkdir(parents=True, exist_ok=True)
         args.standalone.write_text(standalone(encoded), encoding="utf-8")
         print(f"Wrote standalone preview: {args.standalone}")
-    print(f"Built {len(records)} public records into site/ (no internal inputs).")
+    print(f"Built {len(records)} public records into site/; retained {research_count - len(records)} unresolved records in research inputs only.")
 
 
 if __name__ == "__main__":

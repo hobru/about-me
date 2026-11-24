@@ -2,7 +2,7 @@ import copy
 import json
 import unittest
 
-from build import ROOT, standalone, validate
+from build import ROOT, publication_records, standalone, validate
 from import_podcast import parse_episodes
 from import_sap_community import merge_results, parse_results
 
@@ -80,8 +80,29 @@ class CatalogueTests(unittest.TestCase):
 
     def test_public_payload_matches_inputs(self):
         payload = json.loads((ROOT / "site" / "catalogue.json").read_text(encoding="utf-8"))
-        self.assertEqual({r["id"] for r in payload["records"]}, {r["id"] for r in self.curated + self.podcasts})
-        self.assertEqual(len(payload["records"]), len(self.curated + self.podcasts))
+        expected = [r for r in self.curated + self.podcasts if r["verification"] != "Needs review"]
+        self.assertEqual({r["id"] for r in payload["records"]}, {r["id"] for r in expected})
+        self.assertEqual(len(payload["records"]), len(expected))
+        self.assertNotIn("Needs review", {r["verification"] for r in payload["records"]})
+
+    def test_publication_excludes_unresolved_records_without_changing_research(self):
+        ready = copy.deepcopy(self.curated[0])
+        ready["evidenceNote"] = ("User-provided SAP Community search excerpt: byline names Holger. "
+                                 "Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.")
+        ready["dateNote"] = "Advertised event date; delivery not independently confirmed."
+        pending = copy.deepcopy(ready)
+        pending.update(id="unresolved-research-only", verification="Needs review")
+        original = [ready, pending]
+        before = copy.deepcopy(original)
+        published = publication_records(original)
+        self.assertEqual(original, before)
+        self.assertEqual(len(published), 1)
+        self.assertEqual(published[0]["verification"], ready["verification"])
+        self.assertEqual(published[0]["dateNote"], ready["dateNote"])
+        self.assertNotIn("403", published[0]["evidenceNote"])
+        self.assertIn("not been independently reviewed", published[0]["evidenceNote"])
+        encoded = json.dumps({"records": published})
+        self.assertNotIn(pending["id"], standalone(encoded))
 
     def test_standalone_embeds_assets_and_escapes_untrusted_titles(self):
         html = standalone(json.dumps({"records": [{"title": "</script><script>alert(1)</script>"}]}))

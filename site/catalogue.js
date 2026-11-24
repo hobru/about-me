@@ -1,6 +1,6 @@
 window.CATALOGUE = {
   "collected": "2026-11-24",
-  "scope": "Initial public professional catalogue",
+  "scope": "Public professional catalogue",
   "records": [
     {
       "id": "sapinsider-copenhagen-agentic-2026",
@@ -284,7 +284,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/connecting-mcp-gateway-on-integration-suite-with-copilot-studio-updating/ba-p/14488725",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/connecting-mcp-gateway-on-integration-suite-with-copilot-studio-updating/ba-p/14488725",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed."
@@ -303,7 +303,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/identity-and-access-management-with-microsoft-entra-part-iv-integration/ba-p/14481389",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/identity-and-access-management-with-microsoft-entra-part-iv-integration/ba-p/14481389",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: MartinRaepple): Martin Raepple says that he and Holger walk through the scenario in the SAP on Azure video podcast. The episode URL remains to resolve. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: MartinRaepple): Martin Raepple says that he and Holger walk through the scenario in the SAP on Azure video podcast. This reference links to the article discussing that appearance. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -323,7 +323,7 @@ window.CATALOGUE = {
       ],
       "url": "https://www.youtube.com/watch?v=tNvSRY4lvA0",
       "evidenceUrl": "https://www.linkedin.com/posts/sitwhm_bringing-sap-ai-and-microsoft-ai-together-activity-7522960739511504896-Rrn-",
-      "evidenceNote": "Organizer's public post identifies Holger and links the recording. Event date also confirmed at https://sitwhm.de; the site's slide link for this talk is not yet published.",
+      "evidenceNote": "Organizer's public post identifies Holger and links the recording. The event date is also confirmed at https://sitwhm.de.",
       "verification": "Source reviewed",
       "checked": "2026-11-24",
       "featured": true
@@ -875,7 +875,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/joule-for-developers-abap-ai-sapphire-and-asug-2026-sessions/ba-p/14365782",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/joule-for-developers-abap-ai-sapphire-and-asug-2026-sessions/ba-p/14365782",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: JanMatthes): Jan Matthes names Holger in a future session description. This is not a recording or proof of delivery. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: JanMatthes): Jan Matthes names Holger in a future session description. This is not a recording or proof of delivery. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -1859,7 +1859,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-change-management-with-azure-devops-transforming-enterprise-operations/ba-p/14130760",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-change-management-with-azure-devops-transforming-enterprise-operations/ba-p/14130760",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. The snippet also names Bharath Sanmani as co-author. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. The snippet also names Bharath Sanmani as co-author. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed."
@@ -1878,7 +1878,7 @@ window.CATALOGUE = {
       ],
       "url": "https://www.sigs.de/artikel/holger-bruchelt-von-microsoft-und-holger-huegel-von-securitybridge/",
       "evidenceUrl": "https://www.sigs.de/experten/holger-bruchelt/",
-      "evidenceNote": "Expert page identifies this article as a condensed version of a heise meets audio interview. Original audio permalink still to locate.",
+      "evidenceNote": "The linked article is a condensed version of a heise meets audio interview, as identified by its publisher.",
       "verification": "Source reviewed",
       "checked": "2026-11-24"
     },
@@ -2547,7 +2547,7 @@ window.CATALOGUE = {
       ],
       "url": "https://www.sap.com/canada/videos/ai-agents-and-the-future-1245426",
       "evidenceUrl": "https://www.sap.com/canada/videos/ai-agents-and-the-future-1245426",
-      "evidenceNote": "Search index names Holger in the title and description. Full source still to review.",
+      "evidenceNote": "Search index names Holger in the title and description. Attribution is based on the indexed description, not a full-page review.",
       "verification": "Search indexed",
       "checked": "2026-11-24"
     },
@@ -2638,7 +2638,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/getting-started-send-events-from-sap-s-4hana-to-sap-event-mesh-on-business/ba-p/13932543",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/getting-started-send-events-from-sap-s-4hana-to-sap-event-mesh-on-business/ba-p/13932543",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -2730,7 +2730,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/devtoberfest/innovating-with-sap-s-generative-ai-hub-and-azure-openai/ec-p/13915424",
       "evidenceUrl": "https://community.sap.com/t5/devtoberfest/innovating-with-sap-s-generative-ai-hub-and-azure-openai/ec-p/13915424",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: noravonthenen): The invitation names Holger, Rene Pajta and Tanvi Agrawal. Delivery and the event date are not established. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: noravonthenen): The invitation names Holger, Rene Pajta and Tanvi Agrawal. Delivery and the event date are not established. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -3185,25 +3185,6 @@ window.CATALOGUE = {
       "verification": "Series index",
       "checked": "2026-11-24",
       "featured": false
-    },
-    {
-      "id": "sapinsider-ai-2024",
-      "title": "Using Microsoft AI with Your SAP Solutions Today",
-      "kind": "Webinar",
-      "publisher": "SAPinsider",
-      "date": "2024-06-27",
-      "dateNote": "Publication date on author index; delivery date not verified.",
-      "role": "Associated expert; speaker role needs review",
-      "topics": [
-        "AI",
-        "Copilot",
-        "Joule"
-      ],
-      "url": "https://sapinsider.org/webinars/using-microsoft-ai-with-your-sap-solutions-today/",
-      "evidenceUrl": "https://sapinsider.org/experts/holger-bruchelt/",
-      "evidenceNote": "Holger's expert index lists the webinar. The accessible webinar page lists Robert Holland, so do not claim a confirmed speaking role without checking the recording. Registration required for content.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
     },
     {
       "id": "podcast-198",
@@ -3918,7 +3899,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-q-a/testing-sap-successfactors-apis-odata-api-application-export-permission-is/qaq-p/12768511",
       "evidenceUrl": "https://community.sap.com/t5/technology-q-a/testing-sap-successfactors-apis-odata-api-application-export-permission-is/qaq-p/12768511",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -4260,7 +4241,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/devtoberfest/event-driven-architecture-bringing-sap-and-microsoft-closer-together-in/ec-p/279753",
       "evidenceUrl": "https://community.sap.com/t5/devtoberfest/event-driven-architecture-bringing-sap-and-microsoft-closer-together-in/ec-p/279753",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: ajmaradiaga): The invitation names Holger and Karsten Strothmann. Delivery and the event date are not established. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: ajmaradiaga): The invitation names Holger and Karsten Strothmann. Delivery and the event date are not established. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -4353,7 +4334,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/extend-the-power-of-data-for-sap-rise-customers-data-federation-with-sap-in/ba-p/13560042",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/extend-the-power-of-data-for-sap-rise-customers-data-federation-with-sap-in/ba-p/13560042",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: mark_ma): Mark Ma explicitly thanks Holger among the Microsoft colleagues who co-wrote the blog. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: mark_ma): Mark Ma explicitly thanks Holger among the Microsoft colleagues who co-wrote the blog. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -4657,24 +4638,6 @@ window.CATALOGUE = {
       "featured": false
     },
     {
-      "id": "scn-13567919",
-      "title": "Demystify Single Sign-On on Server Side for SAP RI...",
-      "kind": "Mention",
-      "publisher": "SAP Community / SCN",
-      "date": "2023-04-19",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Named contributor; exact role unresolved",
-      "topics": [
-        "SAP",
-        "SSO"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/demystify-single-sign-on-on-server-side-for-sap-rise-customers/ba-p/13567919",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/demystify-single-sign-on-on-server-side-for-sap-rise-customers/ba-p/13567919",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: mark_ma): The excerpt lists Holger among named professionals. It does not establish an article byline or precise contribution. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
       "id": "podcast-142",
       "title": "Power Platform and Single Sign-On",
       "kind": "Podcast",
@@ -4816,7 +4779,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/the-ways-of-the-modern-abap-developer-with-microsoft/ba-p/13563107",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/the-ways-of-the-modern-abap-developer-with-microsoft/ba-p/13563107",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -5037,7 +5000,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/sap-teched-blog-posts/sap-teched-building-the-erp-strategy-for-2030-emerging-technology-trends/ba-p/129276",
       "evidenceUrl": "https://community.sap.com/t5/sap-teched-blog-posts/sap-teched-building-the-erp-strategy-for-2030-emerging-technology-trends/ba-p/129276",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: lauramarwood): The post says Holger will discuss emerging trends. Do not infer the event year from the post's displayed date. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: lauramarwood): The post says Holger will discuss emerging trends. Do not infer the event year from the post's displayed date. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -5180,7 +5143,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/looking-back-at-2022-from-a-sap-and-microsoft-perspective/ba-p/13560266",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/looking-back-at-2022-from-a-sap-and-microsoft-perspective/ba-p/13560266",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -5475,7 +5438,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/user-experience-and-application-development-sessions-at-sap-teched-2022/ba-p/13524917",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/user-experience-and-application-development-sessions-at-sap-teched-2022/ba-p/13524917",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: PeterSpielvogel): Peter Spielvogel's SAP TechEd 2022 session schedule names Holger. An agenda alone does not establish delivery. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: PeterSpielvogel): Peter Spielvogel's SAP TechEd 2022 session schedule names Holger. An agenda alone does not establish delivery. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -5720,7 +5683,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-btp-services-in-microsoft-power-platform/ba-p/13521339",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-btp-services-in-microsoft-power-platform/ba-p/13521339",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -5738,7 +5701,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/integrating-sap-business-processes-in-microsoft-teams-using-sap-business/ba-p/13527269",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/integrating-sap-business-processes-in-microsoft-teams-using-sap-business/ba-p/13527269",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: uma-anbazhagan): The article credits Holger's SAPPHIRE 2022 Microsoft booth showcase. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: uma-anbazhagan): The article credits Holger's SAPPHIRE 2022 Microsoft booth showcase. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -6031,7 +5994,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/low-coding-from-sapphire-dsag/ba-p/13525738",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/low-coding-from-sapphire-dsag/ba-p/13525738",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -6579,7 +6542,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-azure-active-directory-and-sap-business-technology-platform/ba-p/13532817",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-azure-active-directory-and-sap-business-technology-platform/ba-p/13532817",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -6698,7 +6661,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/is-one-click-system-conversion-on-azure-the-next-thing-an-sap-teched-2021/ba-p/13509583",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/is-one-click-system-conversion-on-azure-the-next-thing-an-sap-teched-2021/ba-p/13509583",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Kristin_Aleksandrova): Kristin Aleksandrova names Mathias Klein and Holger's SAP TechEd conversion session. Recording and exact event date remain to verify. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Kristin_Aleksandrova): Kristin Aleksandrova names Mathias Klein and Holger's SAP TechEd conversion session. The linked source is an article about the session, not a recording. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -7391,7 +7354,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-on-azure-news-from-the-podcast-may-2021/ba-p/13507566",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-on-azure-news-from-the-podcast-may-2021/ba-p/13507566",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -7510,7 +7473,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-on-azure-news-from-the-podcast-april-2021/ba-p/13510655",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-on-azure-news-from-the-podcast-april-2021/ba-p/13510655",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -7527,7 +7490,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/part-4-provide-secure-authentication-and-authorization-using-hyperledger/ba-p/13518284",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/part-4-provide-secure-authentication-and-authorization-using-hyperledger/ba-p/13518284",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: SwapnilGalgali): Swapnil Galgali thanks Holger and others for support. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: SwapnilGalgali): Swapnil Galgali thanks Holger and others for support. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -7544,7 +7507,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/monthly-sap-on-azure-news-from-the-podcast/ba-p/13510169",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/monthly-sap-on-azure-news-from-the-podcast/ba-p/13510169",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date."
@@ -7789,7 +7752,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/integrating-sap-business-technology-platform-with-blockchain-service/ba-p/13471775",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/integrating-sap-business-technology-platform-with-blockchain-service/ba-p/13471775",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: SwapnilGalgali): Swapnil Galgali thanks Holger and other Microsoft colleagues for support. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: SwapnilGalgali): Swapnil Galgali thanks Holger and other Microsoft colleagues for support. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8157,7 +8120,7 @@ window.CATALOGUE = {
       "url": "https://www.saponazurepodcast.de/episode016/",
       "links": [],
       "evidenceUrl": "https://www.saponazurepodcast.de/",
-      "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode. The index contains a malformed video link; use the episode page to investigate.",
+      "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode. The source index contains a malformed video link; this entry links to the episode page instead.",
       "verification": "Series index",
       "checked": "2026-11-24",
       "featured": false
@@ -8476,7 +8439,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/business-rules-capability-of-build-process-automation-put-to-the-test-with/ba-p/13476138",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/business-rules-capability-of-build-process-automation-put-to-the-test-with/ba-p/13476138",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Martin-Pankraz): Martin Pankraz credits Holger's PowerApp and SAP ES5 custom-connector example. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Martin-Pankraz): Martin Pankraz credits Holger's PowerApp and SAP ES5 custom-connector example. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8513,7 +8476,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/configure-saml-based-single-sign-on-for-sap-fiori-and-netweaver-using-azure/ba-p/13461411",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/configure-saml-based-single-sign-on-for-sap-fiori-and-netweaver-using-azure/ba-p/13461411",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: manish_shah9): The visible excerpt credits separate work to Holger; the full referenced work and its URL remain to check. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: manish_shah9): The visible excerpt credits separate work to Holger; the excerpt does not identify its full title or URL. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8604,7 +8567,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/connecting-sap-cloud-platform-enterprise-messaging-with-azure-event-grid/ba-p/13432395",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/connecting-sap-cloud-platform-enterprise-messaging-with-azure-event-grid/ba-p/13432395",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8615,13 +8578,13 @@ window.CATALOGUE = {
       "publisher": "SAP Community / SCN",
       "date": "2020-01-27",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Named collaborator and livestream guest lead",
+      "role": "Named collaborator",
       "topics": [
         "SAP"
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/max-s-adventure-in-sap-cloud-platform-all-about-my-live-stream/ba-p/13432914",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/max-s-adventure-in-sap-cloud-platform-all-about-my-live-stream/ba-p/13432914",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: maxstreifeneder): Max Streifeneder describes collaboration with Holger and an April 2020 livestream lead. The displayed January date is not the livestream date. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: maxstreifeneder): Max Streifeneder describes collaboration with Holger and mentions an April 2020 livestream. The displayed January date is not the livestream date. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8639,7 +8602,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/discussions-and-feedback-at-sap-teched-barcelonas-2019-developer-garage/ba-p/13397545",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/discussions-and-feedback-at-sap-teched-barcelonas-2019-developer-garage/ba-p/13397545",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8658,7 +8621,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/dsag-2019-check-teched-barcelona-coming-up/ba-p/13390136",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/dsag-2019-check-teched-barcelona-coming-up/ba-p/13390136",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8676,7 +8639,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/hidden-gems-of-sapphire-sap-fiori-for-ios-sap-cloud-platform-ai-azure/ba-p/13405354",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/hidden-gems-of-sapphire-sap-fiori-for-ios-sap-cloud-platform-ai-azure/ba-p/13405354",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8694,7 +8657,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/son-of-beast-6-tb-and-12-tb-vms-for-sap-hana-on-azure-sapphire/ba-p/13411161",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/son-of-beast-6-tb-and-12-tb-vms-for-sap-hana-on-azure-sapphire/ba-p/13411161",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8712,7 +8675,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2019-sap-and-microsoft-infrastructure-integration-and-devops/ba-p/13395510",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2019-sap-and-microsoft-infrastructure-integration-and-devops/ba-p/13395510",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8730,7 +8693,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/coming-up-dsag-technologietage-2019/ba-p/13391378",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/coming-up-dsag-technologietage-2019/ba-p/13391378",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8749,7 +8712,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-teched-sap-fiori-and-microsoft-office/ba-p/13376511",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-teched-sap-fiori-and-microsoft-office/ba-p/13376511",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8767,7 +8730,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-teched-2018-barcelona/ba-p/13387673",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-teched-2018-barcelona/ba-p/13387673",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8785,7 +8748,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/dsag-jahreskongress-2018/ba-p/13382468",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/dsag-jahreskongress-2018/ba-p/13382468",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8803,26 +8766,8 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/additional-blog-posts-by-members/microsoft-at-sap-connect-2018/ba-p/13365184",
       "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-members/microsoft-at-sap-connect-2018/ba-p/13365184",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-13352346",
-      "title": "Innovation Talks at SAP TechEd 2018",
-      "kind": "Mention",
-      "publisher": "SAP Community / SCN",
-      "date": "2018-09-27",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Named speaker; exact talk unresolved",
-      "topics": [
-        "SAP",
-        "SAP TechEd"
-      ],
-      "url": "https://community.sap.com/t5/sap-teched-blog-posts/innovation-talks-at-sap-teched-2018/ba-p/13352346",
-      "evidenceUrl": "https://community.sap.com/t5/sap-teched-blog-posts/innovation-talks-at-sap-teched-2018/ba-p/13352346",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): Holger is named in an Innovation Talks roundup near replay text. The exact talk and recording URL remain to check. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
       "checked": "2026-11-24"
     },
     {
@@ -8840,7 +8785,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/abap-sdk-for-azure/ba-p/13383690",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/abap-sdk-for-azure/ba-p/13383690",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8858,7 +8803,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/sap-learning-blog-posts/integration-von-sap-mit-microsoft-buch-jetzt-online-lesen/ba-p/13384690",
       "evidenceUrl": "https://community.sap.com/t5/sap-learning-blog-posts/integration-von-sap-mit-microsoft-buch-jetzt-online-lesen/ba-p/13384690",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The SAP Learning announcement names Holger among the book's authors. This is a reference to the already catalogued book, not another book. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The SAP Learning announcement names Holger among the book's authors. This is a reference to the already catalogued book, not another book. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8876,7 +8821,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/beauty-of-odata/ba-p/13384175",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/beauty-of-odata/ba-p/13384175",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8894,7 +8839,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/looking-for-new-partners-selling-sap-on-azure-workshops/ba-p/13368115",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/looking-for-new-partners-selling-sap-on-azure-workshops/ba-p/13368115",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8911,7 +8856,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2018-looking-back/ba-p/13356946",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2018-looking-back/ba-p/13356946",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8929,7 +8874,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2018-sap-microsoft/ba-p/13381908",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2018-sap-microsoft/ba-p/13381908",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8948,7 +8893,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-hana-certification-for-microsoft-azure-m-series/ba-p/13364282",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-hana-certification-for-microsoft-azure-m-series/ba-p/13364282",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8967,7 +8912,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/partners-interested-in-how-microsoft-azure-can-help-you-in-your-sap/ba-p/13364349",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/partners-interested-in-how-microsoft-azure-can-help-you-in-your-sap/ba-p/13364349",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -8985,7 +8930,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-on-azure-events-infrastructure-integration-and-more/ba-p/13371685",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-on-azure-events-infrastructure-integration-and-more/ba-p/13371685",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9004,7 +8949,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/microsoft-auf-den-dsag-technologietagen-2018-in-stuttgart/ba-p/13353223",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/microsoft-auf-den-dsag-technologietagen-2018-in-stuttgart/ba-p/13353223",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9042,7 +8987,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-microsoft-join-forces-to-accelerate-business-innovation/ba-p/13346487",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sap-microsoft-join-forces-to-accelerate-business-innovation/ba-p/13346487",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9061,7 +9006,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/first-time-sap-teched-as-a-microsoft-employee/ba-p/13335360",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/first-time-sap-teched-as-a-microsoft-employee/ba-p/13335360",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9079,44 +9024,8 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/my-experience-of-running-sap-on-azure/ba-p/13341402",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/my-experience-of-running-sap-on-azure/ba-p/13341402",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing: byline links Holger-Bruchelt to profile 3494. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-13330520",
-      "title": "Microsoft @ SAPPHIRENOW: Running SAP on Azure",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2017-04-21",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "Azure",
-        "Microsoft"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-members/microsoft-sapphirenow-running-sap-on-azure/ba-p/13330520",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/microsoft-sapphirenow-running-sap-on-azure/ba-p/13330520",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and this is a surname-search lead without visible authorship corroboration. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-13302481",
-      "title": "SAP API Management - Connecting on-prem made simpl...",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2017-02-03",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-api-management-connecting-on-prem-made-simple/ba-p/13302481",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-api-management-connecting-on-prem-made-simple/ba-p/13302481",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and this is a surname-search lead without visible authorship corroboration. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
       "checked": "2026-11-24"
     },
     {
@@ -9132,7 +9041,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/developing-java-based-apps-on-sap-hana-cloud-platform-opensap-course-a/ba-p/13298971",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/developing-java-based-apps-on-sap-hana-cloud-platform-opensap-course-a/ba-p/13298971",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: svenkohlhaas): Sven Kohlhaas names Holger among the Developing Java-Based Apps on SAP HANA Cloud Platform course team. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: svenkohlhaas): Sven Kohlhaas names Holger among the Developing Java-Based Apps on SAP HANA Cloud Platform course team. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9149,42 +9058,8 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/the-building-blocks-of-code-api-s/ba-p/13187498",
       "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/the-building-blocks-of-code-api-s/ba-p/13187498",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Ian_Thain): Ian Thain explicitly describes interviewing Holger about API Management in SAP CodeTalk. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Ian_Thain): Ian Thain explicitly describes interviewing Holger about API Management in SAP CodeTalk. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-13192497",
-      "title": "How to use SAP API Management on HCP Trial",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2016-02-10",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-use-sap-api-management-on-hcp-trial/ba-p/13192497",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-use-sap-api-management-on-hcp-trial/ba-p/13192497",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and this is a surname-search lead without visible authorship corroboration. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-13181055",
-      "title": "How to use SAP API Hub (Beta)",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2016-01-25",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-use-sap-api-hub-beta/ba-p/13181055",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-use-sap-api-hub-beta/ba-p/13181055",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and this is a surname-search lead without visible authorship corroboration. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
       "checked": "2026-11-24"
     },
     {
@@ -9202,7 +9077,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-at-sapphire-and-ignite/ba-p/13157479",
       "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-at-sapphire-and-ignite/ba-p/13157479",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): Readers are invited to ask Holger for demos. This does not establish a particular delivered talk. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): Readers are invited to ask Holger for demos. This does not establish a particular delivered talk. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9221,7 +9096,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-trial-now-available-in-sap-store/ba-p/13138635",
       "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-trial-now-available-in-sap-store/ba-p/13138635",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger and Shoshanna Budzianowski as Microsoft Virtual Academy instructors. Course recording URLs remain to locate. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The announcement names Holger and Shoshanna Budzianowski as Microsoft Virtual Academy instructors. The linked source is a course announcement. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9240,7 +9115,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-codetalk-sap-gateway-for-microsoft-update/ba-p/13093775",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-codetalk-sap-gateway-for-microsoft-update/ba-p/13093775",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Ian_Thain): Ian Thain explicitly describes interviewing Holger for a SAP CodeTalk update. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Ian_Thain): Ian Thain explicitly describes interviewing Holger for a SAP CodeTalk update. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9259,7 +9134,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/sap-teched-blog-posts/teched-amp-amp-d-code-in-berlin-day-2-amp-3-gateway-and-api-management/ba-p/13112186",
       "evidenceUrl": "https://community.sap.com/t5/sap-teched-blog-posts/teched-amp-amp-d-code-in-berlin-day-2-amp-3-gateway-and-api-management/ba-p/13112186",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: CarstenBo): Carsten Boennen describes Holger's SAP Gateway for Microsoft session. The exact session date is not separately established. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: CarstenBo): Carsten Boennen describes Holger's SAP Gateway for Microsoft session. The exact session date is not separately established. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9278,7 +9153,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/sap-teched-blog-posts/sneak-peek-into-the-world-of-sap-api-management-and-gateway-at-teched-amp/ba-p/13120030",
       "evidenceUrl": "https://community.sap.com/t5/sap-teched-blog-posts/sneak-peek-into-the-world-of-sap-api-management-and-gateway-at-teched-amp/ba-p/13120030",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: CarstenBo): Carsten Boennen's INT262 schedule names Holger and Bjoern Woppmann. Delivery is not established by the schedule. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: CarstenBo): Carsten Boennen's INT262 schedule names Holger and Bjoern Woppmann. Delivery is not established by the schedule. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9297,7 +9172,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-business-use-cases-offline-speed-demo/ba-p/13109016",
       "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-business-use-cases-offline-speed-demo/ba-p/13109016",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The excerpt credits Holger's Excel mass-data-update blog. That underlying article URL remains to locate. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The excerpt credits Holger's Excel mass-data-update blog. The linked source is a third-party reference to that blog. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9316,7 +9191,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/gateway-productivity-accelerator-for-microsoft-update/ba-p/13080536",
       "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/gateway-productivity-accelerator-for-microsoft-update/ba-p/13080536",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Ian_Thain): Ian Thain names Holger as his CodeTalk interviewee. The earlier interview is a separate, unlocated lead. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Ian_Thain): Ian Thain names Holger as his CodeTalk interviewee. The excerpt also mentions an earlier interview, which is not included in this reference. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9334,7 +9209,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/sap-teched-blog-posts/another-exciting-day-at-amsterdam-day-2/ba-p/13040009",
       "evidenceUrl": "https://community.sap.com/t5/sap-teched-blog-posts/another-exciting-day-at-amsterdam-day-2/ba-p/13040009",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The report describes Holger's expert networking session on Microsoft Office applications. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The report describes Holger's expert networking session on Microsoft Office applications. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9354,7 +9229,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/day-1-highlights-from-sap-netweaver-gateway-and-duet-enterprise-team-at/ba-p/13035947",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/day-1-highlights-from-sap-netweaver-gateway-and-duet-enterprise-team-at/ba-p/13035947",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The event report explicitly refers to Holger's Microsoft and SAP expert sessions. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The event report explicitly refers to Holger's Microsoft and SAP expert sessions. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9374,7 +9249,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/gwpam-amp-duet-enterprise-at-teched-amsterdam-here-we-come/ba-p/13029242",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/gwpam-amp-duet-enterprise-at-teched-amsterdam-here-we-come/ba-p/13029242",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The Amsterdam schedule names Holger. Related announcement 13013853 covers the same event, not another proven appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The Amsterdam schedule names Holger. Related announcement 13013853 covers the same event, not another proven appearance. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9395,7 +9270,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-netweaver-gateway-amp-duet-enterprise-coming-to-teched-amsterdam/ba-p/13013853",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-netweaver-gateway-amp-duet-enterprise-coming-to-teched-amsterdam/ba-p/13013853",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The Amsterdam schedule names Holger for November 5/6 sessions. Related announcement 13029242 covers the same event, not another proven appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The Amsterdam schedule names Holger for November 5/6 sessions. Related announcement 13029242 covers the same event, not another proven appearance. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9412,7 +9287,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/what-happens-in-vegas/ba-p/13007966",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/what-happens-in-vegas/ba-p/13007966",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): Holger is listed among team members covering the event on social media; no specific talk is established. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): Holger is listed among team members covering the event on social media; no specific talk is established. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9429,25 +9304,8 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/our-experience-with-nwsso/ba-p/13006198",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/our-experience-with-nwsso/ba-p/13006198",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The excerpt explicitly refers readers to Holger's SSO blogs; it does not identify their individual URLs. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The excerpt explicitly refers readers to Holger's SSO blogs; it does not identify their individual URLs. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-13019484",
-      "title": "Connecting Apps for Office with SAP",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2013-07-10",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/connecting-apps-for-office-with-sap/ba-p/13019484",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/connecting-apps-for-office-with-sap/ba-p/13019484",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and this is a surname-search lead without visible authorship corroboration. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
       "checked": "2026-11-24"
     },
     {
@@ -9464,30 +9322,10 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/duet-enterprise-1-0-fp1-call-stack-what-goes-where-and-how-focus-sap/ba-p/12968737",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/duet-enterprise-1-0-fp1-call-stack-what-goes-where-and-how-focus-sap/ba-p/12968737",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: former_member184598): The excerpt explicitly credits Holger from Duet Enterprise Solution Management. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: former_member184598): The excerpt explicitly credits Holger from Duet Enterprise Solution Management. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed."
-    },
-    {
-      "id": "scn-12978327",
-      "title": "SAP TechEd Madrid 2012 - Day 2 (More Gateway and O...",
-      "kind": "Mention",
-      "publisher": "SAP Community / SCN",
-      "date": "2012-11-14",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Microforum mention; exact role unresolved",
-      "topics": [
-        "SAP",
-        "OData",
-        "SAP Gateway",
-        "SAP TechEd"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-teched-madrid-2012-day-2-more-gateway-and-odata/ba-p/12978327",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-teched-madrid-2012-day-2-more-gateway-and-odata/ba-p/12978327",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: CarstenBo): The excerpt ends with Holger's name after 'Microforum'; the full session title and role remain to check. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
     },
     {
       "id": "duet-madrid-mention",
@@ -9503,7 +9341,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/gateway-and-duet-enterprise-day-one-in-madrid/ba-p/12976880",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/gateway-and-duet-enterprise-day-one-in-madrid/ba-p/12976880",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The excerpt describes Holger showing Duet Enterprise at a demo pod. The displayed date belongs to the report. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The excerpt describes Holger showing Duet Enterprise at a demo pod. The displayed date belongs to the report. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date."
@@ -9529,7 +9367,7 @@ window.CATALOGUE = {
           "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/webinar-duet-enterprise-implementation-by-campana-amp-schott-german/ba-p/12998203"
         }
       ],
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger and Marco Heid for a 7 November 2012 webinar. Delivery and a recording remain unconfirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The announcement names Holger and Marco Heid for a 7 November 2012 webinar. Delivery and a recording remain unconfirmed. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "featured": true
@@ -9549,7 +9387,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/duet-enterprise-installation-amp-troubleshooting-workshop/ba-p/12922171",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/duet-enterprise-installation-amp-troubleshooting-workshop/ba-p/12922171",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger as a contact for the 28 June 2012 workshop. Contact details are deliberately excluded; neither authorship nor presentation is inferred. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The announcement names Holger as a contact for the 28 June 2012 workshop. Contact details are deliberately excluded; neither authorship nor presentation is inferred. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },
@@ -9567,7 +9405,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/technology-blog-posts-by-members/duet-enterprise-interoperability-versus-native-wcf-service-integration/ba-p/12925200",
       "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/duet-enterprise-interoperability-versus-native-wcf-service-integration/ba-p/12925200",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The excerpt attributes an interoperability answer to Holger. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The excerpt attributes an interoperability answer to Holger. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24",
       "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed."
@@ -9585,245 +9423,8 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/welcome-corner-blog-posts/congratulations-to-the-current-topic-leaders-2009-2010/ba-p/12890274",
       "evidenceUrl": "https://community.sap.com/t5/welcome-corner-blog-posts/congratulations-to-the-current-topic-leaders-2009-2010/ba-p/12890274",
-      "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The topic-leader announcement explicitly lists Holger under SAP xApps. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+      "evidenceNote": "SAP Community search listing (byline: Former Member): The topic-leader announcement explicitly lists Holger under SAP xApps. Attribution follows the search listing; the original page has not been independently reviewed.",
       "verification": "User-provided excerpt",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12911740",
-      "title": "New SPNego login module - just around the corner",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2010-04-08",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/new-spnego-login-module-just-around-the-corner/ba-p/12911740",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/new-spnego-login-module-just-around-the-corner/ba-p/12911740",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12871081",
-      "title": "Single Sign On to BSP pages",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2010-01-11",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SSO"
-      ],
-      "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/single-sign-on-to-bsp-pages/ba-p/12871081",
-      "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/single-sign-on-to-bsp-pages/ba-p/12871081",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12892474",
-      "title": "SSO with SPNego not working on Windows 7 / Windows...",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2009-11-05",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sso-with-spnego-not-working-on-windows-7-windows-2008-r2/ba-p/12892474",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sso-with-spnego-not-working-on-windows-7-windows-2008-r2/ba-p/12892474",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12910998",
-      "title": "Encryption everywhere -- Securing your Duet landsc...",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2009-10-03",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "Duet"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/encryption-everywhere-securing-your-duet-landscape/ba-p/12910998",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/encryption-everywhere-securing-your-duet-landscape/ba-p/12910998",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12882773",
-      "title": "Configuring SPNego with ABAP datasource -- Part 2",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2009-03-02",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego",
-        "ABAP"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-spnego-with-abap-datasource-part-2/ba-p/12882773",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-spnego-with-abap-datasource-part-2/ba-p/12882773",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12895313",
-      "title": "Usermapping with J2EE Engine",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2009-02-09",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/usermapping-with-j2ee-engine/ba-p/12895313",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/usermapping-with-j2ee-engine/ba-p/12895313",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12904413",
-      "title": "Single Sign On to BSP pages from Duet's Action Pan...",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2008-10-06",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "Duet",
-        "SSO"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/single-sign-on-to-bsp-pages-from-duet-s-action-pane/ba-p/12904413",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/single-sign-on-to-bsp-pages-from-duet-s-action-pane/ba-p/12904413",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12892073",
-      "title": "TechEd 2008 - UP267 - Install a Duet Server",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2008-08-26",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "Duet",
-        "SAP TechEd"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/teched-2008-up267-install-a-duet-server/ba-p/12892073",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/teched-2008-up267-install-a-duet-server/ba-p/12892073",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12836074",
-      "title": "Configuring SPNego with ABAP datasource",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2008-03-10",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego",
-        "ABAP"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-spnego-with-abap-datasource/ba-p/12836074",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-spnego-with-abap-datasource/ba-p/12836074",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12868935",
-      "title": "Configuring and troubleshooting SPNego -- Part 3",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2008-01-24",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-and-troubleshooting-spnego-part-3/ba-p/12868935",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-and-troubleshooting-spnego-part-3/ba-p/12868935",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12867710",
-      "title": "Configuring and troubleshooting SPNego -- Part 2",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2008-01-15",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-and-troubleshooting-spnego-part-2/ba-p/12867710",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-and-troubleshooting-spnego-part-2/ba-p/12867710",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "scn-12866725",
-      "title": "Configuring and troubleshooting SPNego -- Part 1",
-      "kind": "Article",
-      "publisher": "SAP Community / SCN",
-      "date": "2008-01-09",
-      "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
-      "role": "Possible previous-account author; attribution unconfirmed",
-      "topics": [
-        "SAP",
-        "SPNego"
-      ],
-      "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-and-troubleshooting-spnego-part-1/ba-p/12866725",
-      "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/configuring-and-troubleshooting-spnego-part-1/ba-p/12866725",
-      "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-      "verification": "Needs review",
-      "checked": "2026-11-24"
-    },
-    {
-      "id": "youtube-hobru2000",
-      "title": "Holger Bruchelt's earlier YouTube channel",
-      "kind": "Profile",
-      "publisher": "YouTube",
-      "date": null,
-      "role": "Named channel owner; identity link needs review",
-      "topics": [
-        "Duet Enterprise",
-        "SharePoint",
-        "SAP workflows"
-      ],
-      "url": "https://www.youtube.com/hobru2000",
-      "evidenceUrl": "https://www.youtube.com/hobru2000",
-      "evidenceNote": "Indexed channel uses Holger's name and contains a Duet Enterprise overview playlist and an Outlook SAP workflow walkthrough. Exact video/playlist URLs and ownership cross-link still to verify; do not infer publication dates from relative ages.",
-      "verification": "Needs review",
       "checked": "2026-11-24"
     },
     {
@@ -9875,7 +9476,7 @@ window.CATALOGUE = {
       ],
       "url": "https://community.sap.com/t5/user/viewprofilepage/user-id/3494",
       "evidenceUrl": "https://community.sap.com/t5/user/viewprofilepage/user-id/3494",
-      "evidenceNote": "Profile supplied by the user and repeatedly linked from Holger-Bruchelt bylines in the supplied search excerpts. Profile page itself not reviewed: direct retrieval returned HTTP 403. Older Former Member posts may belong to previous user IDs and are tracked separately with attribution caveats.",
+      "evidenceNote": "Linked from Holger-Bruchelt author bylines in the SAP Community search listings. Profile content has not been independently reviewed.",
       "verification": "User-provided excerpt",
       "checked": "2026-11-24"
     },

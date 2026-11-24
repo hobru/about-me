@@ -13,7 +13,7 @@
     ],
     "url": "https://community.sap.com/t5/user/viewprofilepage/user-id/3494",
     "evidenceUrl": "https://community.sap.com/t5/user/viewprofilepage/user-id/3494",
-    "evidenceNote": "Profile supplied by the user and repeatedly linked from Holger-Bruchelt bylines in the supplied search excerpts. Profile page itself not reviewed: direct retrieval returned HTTP 403. Older Former Member posts may belong to previous user IDs and are tracked separately with attribution caveats.",
+    "evidenceNote": "Linked from Holger-Bruchelt author bylines in the SAP Community search listings. Profile content has not been independently reviewed.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -33,7 +33,7 @@
     ],
     "url": "https://www.youtube.com/watch?v=tNvSRY4lvA0",
     "evidenceUrl": "https://www.linkedin.com/posts/sitwhm_bringing-sap-ai-and-microsoft-ai-together-activity-7522960739511504896-Rrn-",
-    "evidenceNote": "Organizer's public post identifies Holger and links the recording. Event date also confirmed at https://sitwhm.de; the site's slide link for this talk is not yet published.",
+    "evidenceNote": "Organizer's public post identifies Holger and links the recording. The event date is also confirmed at https://sitwhm.de.",
     "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": true
@@ -134,7 +134,7 @@
     ],
     "url": "https://www.sigs.de/artikel/holger-bruchelt-von-microsoft-und-holger-huegel-von-securitybridge/",
     "evidenceUrl": "https://www.sigs.de/experten/holger-bruchelt/",
-    "evidenceNote": "Expert page identifies this article as a condensed version of a heise meets audio interview. Original audio permalink still to locate.",
+    "evidenceNote": "The linked article is a condensed version of a heise meets audio interview, as identified by its publisher.",
     "verification": "Source reviewed",
     "checked": "2026-11-24"
   },
@@ -153,7 +153,7 @@
     ],
     "url": "https://www.sap.com/canada/videos/ai-agents-and-the-future-1245426",
     "evidenceUrl": "https://www.sap.com/canada/videos/ai-agents-and-the-future-1245426",
-    "evidenceNote": "Search index names Holger in the title and description. Full source still to review.",
+    "evidenceNote": "Search index names Holger in the title and description. Attribution is based on the indexed description, not a full-page review.",
     "verification": "Search indexed",
     "checked": "2026-11-24"
   },
@@ -1478,7 +1478,7 @@
     ],
     "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/gateway-productivity-accelerator-for-microsoft-update/ba-p/13080536",
     "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/gateway-productivity-accelerator-for-microsoft-update/ba-p/13080536",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Ian_Thain): Ian Thain names Holger as his CodeTalk interviewee. The earlier interview is a separate, unlocated lead. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Ian_Thain): Ian Thain names Holger as his CodeTalk interviewee. The excerpt also mentions an earlier interview, which is not included in this reference. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1681,7 +1681,7 @@
     ],
     "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-trial-now-available-in-sap-store/ba-p/13138635",
     "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-trial-now-available-in-sap-store/ba-p/13138635",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger and Shoshanna Budzianowski as Microsoft Virtual Academy instructors. Course recording URLs remain to locate. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger and Shoshanna Budzianowski as Microsoft Virtual Academy instructors. The linked source is a course announcement. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1775,7 +1775,7 @@
     ],
     "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-business-use-cases-offline-speed-demo/ba-p/13109016",
     "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-business-use-cases-offline-speed-demo/ba-p/13109016",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The excerpt credits Holger's Excel mass-data-update blog. That underlying article URL remains to locate. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The excerpt credits Holger's Excel mass-data-update blog. The linked source is a third-party reference to that blog. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1920,7 +1920,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/is-one-click-system-conversion-on-azure-the-next-thing-an-sap-teched-2021/ba-p/13509583",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/is-one-click-system-conversion-on-azure-the-next-thing-an-sap-teched-2021/ba-p/13509583",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Kristin_Aleksandrova): Kristin Aleksandrova names Mathias Klein and Holger's SAP TechEd conversion session. Recording and exact event date remain to verify. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Kristin_Aleksandrova): Kristin Aleksandrova names Mathias Klein and Holger's SAP TechEd conversion session. The linked source is an article about the session, not a recording. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1968,13 +1968,13 @@
     "publisher": "SAP Community / SCN",
     "date": "2020-01-27",
     "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-    "role": "Named collaborator and livestream guest lead",
+    "role": "Named collaborator",
     "topics": [
       "SAP"
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/max-s-adventure-in-sap-cloud-platform-all-about-my-live-stream/ba-p/13432914",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/max-s-adventure-in-sap-cloud-platform-all-about-my-live-stream/ba-p/13432914",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: maxstreifeneder): Max Streifeneder describes collaboration with Holger and an April 2020 livestream lead. The displayed January date is not the livestream date. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: maxstreifeneder): Max Streifeneder describes collaboration with Holger and mentions an April 2020 livestream. The displayed January date is not the livestream date. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -2028,7 +2028,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/configure-saml-based-single-sign-on-for-sap-fiori-and-netweaver-using-azure/ba-p/13461411",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/configure-saml-based-single-sign-on-for-sap-fiori-and-netweaver-using-azure/ba-p/13461411",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: manish_shah9): The visible excerpt credits separate work to Holger; the full referenced work and its URL remain to check. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: manish_shah9): The visible excerpt credits separate work to Holger; the excerpt does not identify its full title or URL. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -2098,7 +2098,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/identity-and-access-management-with-microsoft-entra-part-iv-integration/ba-p/14481389",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/identity-and-access-management-with-microsoft-entra-part-iv-integration/ba-p/14481389",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: MartinRaepple): Martin Raepple says that he and Holger walk through the scenario in the SAP on Azure video podcast. The episode URL remains to resolve. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: MartinRaepple): Martin Raepple says that he and Holger walk through the scenario in the SAP on Azure video podcast. This reference links to the article discussing that appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   }

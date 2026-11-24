@@ -88,7 +88,7 @@ def parse_episodes(html, checked):
             "links": [{"label": "YouTube", "url": videos[0][0]}] if videos else [],
             "evidenceUrl": SOURCE,
             "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode."
-            + ("" if videos else " The index contains a malformed video link; use the episode page to investigate."),
+            + ("" if videos else " The source index contains a malformed video link; this entry links to the episode page instead."),
             "verification": "Series index",
             "checked": checked,
             "featured": number == 300,

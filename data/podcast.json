@@ -7482,7 +7482,7 @@
     "url": "https://www.saponazurepodcast.de/episode016/",
     "links": [],
     "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode. The index contains a malformed video link; use the episode page to investigate.",
+    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode. The source index contains a malformed video link; this entry links to the episode page instead.",
     "verification": "Series index",
     "checked": "2026-11-24",
     "featured": false

@@ -41,7 +41,7 @@
     links.append(link("Open source \u2197", record.url));
     (record.links || []).forEach(item => links.append(link(item.label + " \u2197", item.url)));
     const details = element("details");
-    details.append(element("summary", record.verification + " / evidence notes"));
+    details.append(element("summary", record.verification + " / source notes"));
     details.append(element("p", record.evidenceNote));
     if (record.dateNote) details.append(element("p", record.dateNote));
     details.append(link("Attribution source \u2197", record.evidenceUrl));
@@ -63,8 +63,10 @@
     record.id, normalize([record.title, record.publisher, record.role, ...record.topics, record.evidenceNote].join(" "))
   ]));
   populate(kind, [...new Set(records.map(record => record.kind))].sort());
-  populate(year, [...new Set(records.filter(record => record.date).map(record => record.date.slice(0, 4)))].sort().reverse());
+  const years = [...new Set(records.filter(record => record.date).map(record => record.date.slice(0, 4)))].sort().reverse();
+  populate(year, years);
   populate(evidence, [...new Set(records.map(record => record.verification))].sort());
+  document.querySelector("#archive-range").textContent = years.length ? `${years[years.length - 1]} \u2192 ${years[0]}` : "Undated";
   document.querySelector("#episode-count").textContent = records.filter(record => record.kind === "Podcast").length;
   document.querySelector("#other-count").textContent = records.filter(record => record.kind !== "Podcast").length;
   document.querySelector("#featured").replaceChildren(...records.filter(record => record.featured).map(card));

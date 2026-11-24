@@ -1,11 +1,12 @@
 # Holger Bruchelt - professional presence catalogue
 
-A first collection of public professional references and a working, responsive website proposal. Research started **24 November 2026**. This is a starting bibliography, **not a claim to have found every appearance or post**. It excludes unrelated personal information.
+A source-linked collection of public professional references and a responsive static website. Research started **24 November 2026**. It is not a claim to have found every appearance or post, and excludes unrelated personal information.
 
 ## What is collected
 
 - **314 podcast episode records**, episodes 1-314, from the public [SAP on Azure index](https://www.saponazurepodcast.de/), spanning July 2020-November 2026. This is a series-level collection, not 314 individually confirmed appearances by Holger.
 - **114 additional public references:** conference sessions, interviews, articles, a book, LinkedIn mentions, projects, profiles, and a presentation-library index. Together with the podcast index, the catalogue contains **428 records**. Related records are not necessarily unique appearances: an organizer post and its talk are separate references.
+- **406 records are included in the public website:** 314 podcast episodes and 92 other references. The 22 records marked **Needs review** remain in the research inputs, but are excluded from generated JS, the JSON download, and the standalone HTML. Counts and year coverage on the page reflect only published records.
 - **A separate private internal catalogue** is delivered in this Copilot session, outside this repository. No internal titles, links, decks, recordings, or source data are included in the deployable website.
 
 ### Requested sources and representative findings
@@ -30,21 +31,21 @@ The supplied search pages report 188 results; the pasted text contains **187 dis
 
 The additions include three explicitly attributed SAP CodeTalk interviews from 2014/2016, course-team/instructor credits, conference and demo mentions, and an explicit co-author credit on the SAP RISE data-federation article. Mentions and acknowledgements are not treated as article authorship. Generic Q&A hits without a visible relationship are excluded.
 
-**17 Former Member articles are retained as possible previous-account work:** 12 historical tagged leads (including the SPNego series and original Duet material) and 5 weaker API Management/Office/Azure leads. The user clarified that older posts can use a previous user ID. That makes Former Member a reason to investigate, not a reason to exclude a post; it does not individually confirm every match. These entries visibly say **Possible previous-account author; attribution unconfirmed** and **Needs review**. The five weaker leads have no visible authorship corroboration in the excerpt.
+**17 Former Member articles are retained in the research inputs as possible previous-account work:** 12 historical tagged leads (including the SPNego series and original Duet material) and 5 weaker API Management/Office/Azure leads. The user clarified that older posts can use a previous user ID. That makes Former Member a reason to investigate, not a reason to discard a lead; it does not individually confirm every match. These research entries say **Possible previous-account author; attribution unconfirmed** and **Needs review**, and are not shipped with the public site until resolved. The five weaker leads have no visible authorship corroboration in the excerpt.
 
 Direct SAP Community retrieval previously returned HTTP 403. The supplied excerpts are usable metadata evidence, but do not establish why access failed or mean the original pages were reviewed. Only metadata and original attribution notes are retained; signed-in navigation, notification counts, private-message links, and copied article text are excluded.
 
-## Layout proposal
+## Website layout
 
 **Editorial personal homepage + searchable professional library**, rather than a chronological social feed:
 
 1. **Identity and focus:** short positioning statement, SAP/Microsoft integration, AI/agents, data/security, and direct podcast/GitHub links.
 2. **Selected work:** a small editorial selection of a recent talk, milestone episode, guest appearance, and historical session. `featured` flags control this; there is no invented popularity ranking.
 3. **Full catalogue:** keyword search, format/year/evidence filters, newest-first ordering, incremental rendering, source links, exact roles, and expandable evidence/date notes.
-4. **About and professional profiles:** draft biography based on a public publisher biography; review the wording before launch.
+4. **About and professional profiles:** concise introduction and links to public professional profiles.
 5. **Internal companion:** a separate authenticated SharePoint/M365 destination, not a hidden public website tab. No internal metadata is shipped with this site.
 
-The prototype uses warm neutral surfaces, a rose accent, local system fonts, light/dark mode, keyboard-accessible controls, and a mobile layout. It deliberately avoids third-party embeds, tracking, copied articles, media downloads, and externally loaded images/fonts.
+The website uses warm neutral surfaces, a rose accent, local system fonts, light/dark mode, keyboard-accessible controls, and a mobile layout. It deliberately avoids third-party embeds, tracking, copied articles, media downloads, and externally loaded images/fonts.
 
 The landing page borrows hierarchy, a prominent primary action, nearby evidence, and more deliberate spacing from [elayadesign's landing-page design guide](https://github.com/elayadesign/ai-design-skills/blob/main/skills/landing-page-design/SKILL.md), as inspiration rather than a specification. It remains a personal editorial homepage, not a sales funnel: a real SIT Weinheim recording anchors the hero, catalogue counts retain their qualifications, and Listen / Read / Build shortcuts filter the existing library. There are no invented endorsements or testimonials, unnecessary signup forms, or mandatory scroll effects. The existing theme and system fonts are preserved; entrance and hover movement respect reduced-motion preferences.
 
@@ -52,11 +53,11 @@ The landing page borrows hierarchy, a prominent primary action, nearby evidence,
 
 | Path | Purpose |
 | --- | --- |
-| `data/public.json` | Hand-curated public reference metadata with attribution and caveats |
+| `data/public.json` | Hand-curated research metadata, including unresolved public-source leads and attribution caveats |
 | `data/podcast.json` | Reproducible snapshot of the public podcast index |
 | `tools/import_podcast.py` | Optional network refresh of episode metadata only |
 | `tools/import_sap_community.py` | Offline import of supplied SAP Community search Markdown; explicit bylines, reviewed relationship IDs, and uncertain historical leads only |
-| `tools/build.py` | Offline build from two explicit public inputs |
+| `tools/build.py` | Offline build from two explicit inputs; excludes Needs review records from all public outputs |
 | `site/` | Entire deployable site, including generated JS/JSON catalogue |
 | `tools/test_catalogue.py` | Focused importer, schema, and public-boundary checks |
 
@@ -68,7 +69,9 @@ Evidence labels:
 - **Search indexed:** evidence comes from an indexed excerpt, not a full-page review.
 - **User-provided excerpt:** evidence comes from search-result metadata pasted by the user, not an independently reviewed original page.
 - **Series index:** episode metadata imported from the public series index; per-episode participation and every media URL have not been independently checked.
-- **Needs review:** unresolved role, attribution, or identity question stated explicitly.
+- **Needs review:** unresolved role, attribution, or identity question; retained for research only and excluded from publication.
+
+The publication build removes operational retrieval diagnostics from SAP search-listing notes while retaining their actual evidence limitations. It does not upgrade evidence labels, assume event delivery, or remove role/date caveats. Research notes remain unchanged in the input files.
 
 Only metadata, concise original notes, and outbound links are stored. No third-party articles, slides, recordings, or transcripts are republished.
 
@@ -110,7 +113,7 @@ The build reads only the two named public datasets and rejects known Microsoft i
 
 ### GitHub Pages
 
-1. Review the catalogue and draft biography; keep the private internal catalogue out of Git and deployment artifacts.
+1. Review publication permissions and applicable legal notices; keep the private internal catalogue out of Git and deployment artifacts.
 2. This repository is currently private. Confirm that the account's plan supports Pages from private repositories, or choose another host. A private source repository does **not** make a published Pages site private.
 3. In repository Settings > Pages, choose GitHub Actions. A future deployment workflow should build with `python tools\build.py`, run the checks above, and upload **only `site`** with the official Pages artifact action. Never upload the repository root or session artifacts.
 4. Grant the deployment job only the required Pages permissions (`contents: read`, `pages: write`, `id-token: write`), use the `github-pages` environment, and deploy with the official Pages deploy action.
