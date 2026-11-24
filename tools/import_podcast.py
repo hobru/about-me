@@ -100,6 +100,16 @@ def parse_episodes(html, checked):
     return sorted(episodes, key=lambda item: int(item["id"].split("-")[1]), reverse=True)
 
 
+def preserve_appearance_evidence(episodes, existing):
+    previous = {record["id"]: record for record in existing}
+    for episode in episodes:
+        prior = previous.get(episode["id"])
+        if prior and prior["verification"] != "Series index":
+            for field in ("role", "evidenceUrl", "evidenceNote", "verification", "checked"):
+                episode[field] = prior[field]
+    return episodes
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--html", type=Path, help="Use a saved public homepage instead of the network.")
@@ -114,9 +124,11 @@ def main():
     episodes = parse_episodes(html, checked)
     target = ROOT / "data" / "podcast.json"
     if target.exists():
-        old_count = len(json.loads(target.read_text(encoding="utf-8")))
+        existing = json.loads(target.read_text(encoding="utf-8"))
+        old_count = len(existing)
         if len(episodes) < old_count:
             raise ValueError(f"Import shrank from {old_count} to {len(episodes)}; review pagination before replacing it.")
+        preserve_appearance_evidence(episodes, existing)
     target.parent.mkdir(exist_ok=True)
     target.write_text(json.dumps(episodes, ensure_ascii=True, indent=2) + "\n", encoding="utf-8")
     print(f"Imported {len(episodes)} episode records into {target.relative_to(ROOT)}")

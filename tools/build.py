@@ -9,14 +9,14 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES = ("public.json", "podcast.json")
-STATUSES = {"Source reviewed", "Search indexed", "Series index", "User-provided excerpt", "Needs review"}
+STATUSES = {"Source reviewed", "Search indexed", "Series index", "User-provided excerpt", "User-provided reference", "Needs review"}
 PRIVATE_HOSTS = ("sharepoint.com", "sharepoint-df.com", "teams.microsoft.com", "outlook.office.com", "airlift.microsoft.com")
 
 
 def sap_content_id(url):
     parsed = urlparse(url)
     if parsed.hostname == "community.sap.com":
-        match = re.search(r"/(?:ba-p|qaq-p|ec-p|m-p)/(\d+)(?:/|$)", parsed.path)
+        match = re.search(r"/(?:ba-p|qaq-p|ec-p|ev-p|m-p)/(\d+)(?:/|$)", parsed.path)
         if match:
             return match[1]
     return None

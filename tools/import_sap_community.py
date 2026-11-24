@@ -117,6 +117,8 @@ def merge_results(existing, results, checked):
     added = updated = 0
     for identifier, item in results.items():
         prior = by_content.get(identifier)
+        if prior and prior["verification"] in {"Source reviewed", "User-provided reference"}:
+            continue
         legacy = (item["author"] == "Former Member" and
                   ((identifier in LEGACY_IDS and item["legacyTag"]) or identifier in LEGACY_LEADS))
         if not (prior or item["holgerByline"] or legacy or identifier in MENTIONS):

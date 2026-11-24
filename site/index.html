@@ -109,7 +109,20 @@
       <p class="scope">Talks, interviews, articles, and projects, linked to their original sources. Open a card's source notes for attribution and date details.</p>
       <form class="filters" id="filters" role="search">
         <div class="search-field"><label for="search">Search the collection</label><input id="search" type="search" placeholder="Try Duet, E3, SAPinsider, MCP..." autocomplete="off"></div>
-        <div><label for="kind">Format</label><select id="kind"><option value="">All formats</option></select></div>
+        <div class="format-field">
+          <span id="format-label" class="filter-label">Format</span>
+          <details id="format-filter" class="format-filter">
+            <summary aria-labelledby="format-label format-selection"><span id="format-selection">All formats</span></summary>
+            <fieldset id="kind" class="format-options">
+              <legend>Select one or more formats</legend>
+              <div class="format-actions">
+                <button id="formats-all" type="button">All formats</button>
+                <button id="formats-no-podcasts" type="button">Without podcasts</button>
+              </div>
+              <div id="format-checkboxes"></div>
+            </fieldset>
+          </details>
+        </div>
         <div><label for="year">Year</label><select id="year"><option value="">All years</option></select></div>
         <div><label for="evidence">Evidence</label><select id="evidence"><option value="">All evidence levels</option></select></div>
         <button type="reset" class="reset">Reset</button>

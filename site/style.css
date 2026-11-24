@@ -144,9 +144,19 @@ details p { margin-top: 12px !important; }
 .filters { display: flex; align-items: end; flex-wrap: wrap; gap: 16px; padding: 24px; background: var(--cp-bg-elevated); border: 1px solid var(--cp-border); border-radius: 16px; }
 .filters > div { flex: 1 1 140px; min-width: 0; }
 .filters .search-field { flex: 2 1 260px; }
-label { display: block; font-size: 12px; font-weight: 600; margin-bottom: 8px; }
+.filters .format-field { flex-basis: 180px; }
+label, .filter-label { display: block; font-size: 12px; font-weight: 600; margin-bottom: 8px; }
 input, select { width: 100%; padding: 12px; border-radius: .625rem; border: 1px solid var(--cp-border-strong); background: var(--cp-surface); color: var(--cp-text); min-height: 48px; }
 input::placeholder { color: var(--cp-text-soft); }
+.format-filter { position: relative; border: 0; margin: 0; padding: 0; font-size: 16px; color: var(--cp-text); }
+.format-filter > summary { min-height: 48px; padding: 12px; border: 1px solid var(--cp-border-strong); border-radius: .625rem; background: var(--cp-surface); white-space: nowrap; }
+.format-options { position: absolute; z-index: 2; top: 100%; left: 0; width: 100%; max-height: min(480px, 60vh); overflow-y: auto; margin: 8px 0 0; padding: 16px; border: 1px solid var(--cp-border-strong); border-radius: .625rem; background: var(--cp-surface); }
+.format-options legend { padding: 0 4px; background: var(--cp-surface); font-size: 12px; font-weight: 600; }
+.format-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.format-actions button { padding: 8px; border: 1px solid var(--cp-border); border-radius: .625rem; background: var(--cp-bg-elevated); color: var(--cp-text); font-size: 12px; }
+.format-actions button:hover { color: var(--cp-accent); border-color: var(--cp-accent); }
+.format-options label { display: flex; align-items: center; gap: 12px; min-height: 36px; margin: 0; font-size: 14px; font-weight: 400; cursor: pointer; }
+.format-options input { width: 18px; height: 18px; min-height: 0; margin: 0; padding: 0; accent-color: var(--cp-accent); }
 .reset { padding: 12px 4px; min-height: 48px; background: none; border: 0; color: var(--cp-text); text-decoration: underline; }
 .reset:hover { color: var(--cp-accent); }
 .results-bar { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--cp-text-muted); padding: 16px 0; gap: 16px; }

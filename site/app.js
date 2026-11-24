@@ -9,6 +9,8 @@
   }
   const search = document.querySelector("#search");
   const kind = document.querySelector("#kind");
+  const formatFilter = document.querySelector("#format-filter");
+  const formatSelection = document.querySelector("#format-selection");
   const year = document.querySelector("#year");
   const evidence = document.querySelector("#evidence");
   const more = document.querySelector("#more");
@@ -62,7 +64,18 @@
   const haystacks = new Map(records.map(record => [
     record.id, normalize([record.title, record.publisher, record.role, ...record.topics, record.evidenceNote].join(" "))
   ]));
-  populate(kind, [...new Set(records.map(record => record.kind))].sort());
+  const formats = [...new Set(records.map(record => record.kind))].sort();
+  const formatInputs = formats.map(format => {
+    const label = element("label");
+    const input = element("input");
+    input.type = "checkbox";
+    input.name = "format";
+    input.value = format;
+    input.defaultChecked = true;
+    label.append(input, document.createTextNode(format));
+    document.querySelector("#format-checkboxes").append(label);
+    return input;
+  });
   const years = [...new Set(records.filter(record => record.date).map(record => record.date.slice(0, 4)))].sort().reverse();
   populate(year, years);
   populate(evidence, [...new Set(records.map(record => record.verification))].sort());
@@ -79,9 +92,15 @@
   }
 
   function filter() {
+    const selected = new Set(formatInputs.filter(input => input.checked).map(input => input.value));
+    formatSelection.textContent = selected.size === formats.length ? "All formats"
+      : selected.size === 0 ? "No formats"
+      : selected.size === 1 ? [...selected][0]
+      : formats.includes("Podcast") && selected.size === formats.length - 1 && !selected.has("Podcast") ? "Without podcasts"
+      : `${selected.size} formats`;
     const terms = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     filtered = records.filter(record =>
-      (!kind.value || record.kind === kind.value) &&
+      selected.has(record.kind) &&
       (!year.value || record.date?.startsWith(year.value)) &&
       (!evidence.value || record.verification === evidence.value) &&
       terms.every(term => haystacks.get(record.id).includes(term))
@@ -89,18 +108,36 @@
     visible = 18;
     render();
   }
-  document.querySelector("#filters").addEventListener("submit", event => event.preventDefault());
-  document.querySelector("#filters").addEventListener("input", filter);
-  document.querySelector("#filters").addEventListener("change", filter);
-  document.querySelector("#filters").addEventListener("reset", () => {
-    search.value = kind.value = year.value = evidence.value = "";
+  function selectFormats(values) {
+    const selected = new Set(values);
+    formatInputs.forEach(input => { input.checked = selected.has(input.value); });
     filter();
+  }
+  document.querySelector("#filters").addEventListener("submit", event => event.preventDefault());
+  search.addEventListener("input", filter);
+  [kind, year, evidence].forEach(control => control.addEventListener("change", filter));
+  document.querySelector("#formats-all").addEventListener("click", () => selectFormats(formats));
+  document.querySelector("#formats-no-podcasts").addEventListener("click", () => selectFormats(formats.filter(format => format !== "Podcast")));
+  document.querySelector("#filters").addEventListener("reset", event => {
+    event.preventDefault();
+    search.value = year.value = evidence.value = "";
+    selectFormats(formats);
+    formatFilter.open = false;
+  });
+  document.addEventListener("click", event => {
+    if (!formatFilter.contains(event.target)) formatFilter.open = false;
+  });
+  formatFilter.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      formatFilter.open = false;
+      formatFilter.querySelector("summary").focus();
+    }
   });
   document.querySelectorAll("[data-kind]").forEach(shortcut => {
     shortcut.addEventListener("click", () => {
       search.value = year.value = evidence.value = "";
-      kind.value = shortcut.dataset.kind;
-      filter();
+      selectFormats([shortcut.dataset.kind]);
+      formatFilter.open = false;
     });
   });
   more.addEventListener("click", () => {

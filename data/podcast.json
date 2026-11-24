@@ -814,7 +814,7 @@
     "publisher": "SAP on Azure",
     "date": "2026-03",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "DSAG",
       "abapConf"
@@ -826,9 +826,9 @@
         "url": "https://youtu.be/V0oGA5s-1so"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -1337,7 +1337,7 @@
     "publisher": "SAP on Azure",
     "date": "2025-10",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "News"
     ],
@@ -1348,9 +1348,9 @@
         "url": "https://youtu.be/PZkhA3V4Mvk"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt, Goran Condric. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -1434,7 +1434,7 @@
     "publisher": "SAP on Azure",
     "date": "2025-09",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "News"
     ],
@@ -1445,9 +1445,9 @@
         "url": "https://youtu.be/mcfgsdg2OVg"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Goran Condric, Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -1759,7 +1759,7 @@
     "publisher": "SAP on Azure",
     "date": "2025-06",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Sapphire",
       "Build"
@@ -1771,9 +1771,9 @@
         "url": "https://youtu.be/pQ1QN759Cjs"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt, Goran Condric. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -1984,7 +1984,7 @@
     "publisher": "SAP on Azure",
     "date": "2025-03",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "DSAG",
       "Copilot"
@@ -1996,9 +1996,9 @@
         "url": "https://youtu.be/pqnals7Z1v4"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Michael Schmitt, Martin Pankraz, Martin Raepple, Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -3409,7 +3409,7 @@
     "publisher": "SAP on Azure",
     "date": "2024-02",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Event",
       "DSAG"
@@ -3421,9 +3421,9 @@
         "url": "https://youtu.be/Nv9pDnvMgIs"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -3559,7 +3559,7 @@
     "publisher": "SAP on Azure",
     "date": "2023-12",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "DevOps",
       "CAF"
@@ -3571,9 +3571,9 @@
         "url": "https://youtu.be/IC0qsutvSvE"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Robert Boban, Goran Condric, Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -3659,7 +3659,7 @@
     "publisher": "SAP on Azure",
     "date": "2023-11",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Teched",
       "Ignite"
@@ -3671,9 +3671,9 @@
         "url": "https://youtu.be/3kRWf-tRL7Q"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Goran Condric, Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -5140,7 +5140,7 @@
     "publisher": "SAP on Azure",
     "date": "2022-09",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Power Platform",
       "BTP",
@@ -5153,9 +5153,9 @@
         "url": "https://youtu.be/rUJFo09aPrI"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -5341,7 +5341,7 @@
     "publisher": "SAP on Azure",
     "date": "2022-07",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Overview"
     ],
@@ -5352,9 +5352,9 @@
         "url": "https://youtu.be/tFCWftG0czc"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt, Goran Condric, Robert Boban. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -5416,7 +5416,7 @@
     "publisher": "SAP on Azure",
     "date": "2022-06",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Power Platform",
       "Low Code"
@@ -5428,9 +5428,9 @@
         "url": "https://youtu.be/d4lwugF4NIA"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -5542,7 +5542,7 @@
     "publisher": "SAP on Azure",
     "date": "2022-05",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Power Platform",
       "Low-Code",
@@ -5555,9 +5555,9 @@
         "url": "https://youtu.be/ufWkjCtiu0k"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -6022,7 +6022,7 @@
     "publisher": "SAP on Azure",
     "date": "2022-01",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Overview"
     ],
@@ -6033,9 +6033,9 @@
         "url": "https://youtu.be/AFnGM3Ai6Vg"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Robert Boban, Goran Condric, Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -6345,7 +6345,7 @@
     "publisher": "SAP on Azure",
     "date": "2021-10",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Partnership"
     ],
@@ -6356,9 +6356,9 @@
         "url": "https://youtu.be/oNQdoHSqnu8"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -7226,7 +7226,7 @@
     "publisher": "SAP on Azure",
     "date": "2021-01",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "MicrosoftDigital",
       "EatYourOwnDogfood"
@@ -7238,9 +7238,9 @@
         "url": "https://youtu.be/Q8f2vTLB-gk"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -7569,7 +7569,7 @@
     "publisher": "SAP on Azure",
     "date": "2020-10",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "ANF",
       "Infrastructure"
@@ -7581,9 +7581,9 @@
         "url": "https://youtu.be/4aniyKA8GLM"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -7795,7 +7795,7 @@
     "publisher": "SAP on Azure",
     "date": "2020-07",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "HA",
       "Networking"
@@ -7807,9 +7807,9 @@
         "url": "https://www.youtube.com/watch?v=dgl1Evl-Q8w"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },
@@ -7820,7 +7820,7 @@
     "publisher": "SAP on Azure",
     "date": "2020-07",
     "dateNote": "Publication month shown by the series index; not a recording date.",
-    "role": "Series creator / host",
+    "role": "Named episode participant",
     "topics": [
       "Events"
     ],
@@ -7831,9 +7831,9 @@
         "url": "https://www.youtube.com/watch?v=sbr2j5tmCx8"
       }
     ],
-    "evidenceUrl": "https://www.saponazurepodcast.de/",
-    "evidenceNote": "Episode listed in the public series index. Individual participation has not been checked for every episode.",
-    "verification": "Series index",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The reviewed public Holger Bruchelt author archive explicitly associates this episode with these named contributors: Holger Bruchelt. This is item-level participation evidence, not an assumption from the complete series index.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": false
   },

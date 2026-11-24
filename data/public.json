@@ -15,7 +15,13 @@
     "evidenceUrl": "https://community.sap.com/t5/user/viewprofilepage/user-id/3494",
     "evidenceNote": "Linked from Holger-Bruchelt author bylines in the SAP Community search listings. Profile content has not been independently reviewed.",
     "verification": "User-provided excerpt",
-    "checked": "2026-11-24"
+    "checked": "2026-11-24",
+    "links": [
+      {
+        "label": "SAP Community search",
+        "url": "https://community.sap.com/t5/forums/searchpage/tab/message?ct=all&q=bruchelt"
+      }
+    ]
   },
   {
     "id": "sitwhm-2026",
@@ -36,7 +42,13 @@
     "evidenceNote": "Organizer's public post identifies Holger and links the recording. The event date is also confirmed at https://sitwhm.de.",
     "verification": "Source reviewed",
     "checked": "2026-11-24",
-    "featured": true
+    "featured": true,
+    "links": [
+      {
+        "label": "Event archive",
+        "url": "https://sitwhm.de/"
+      }
+    ]
   },
   {
     "id": "sapinsider-copenhagen-agentic-2026",
@@ -91,9 +103,15 @@
     ],
     "url": "https://abapconf.org/abapconf2026/sessions/v5/",
     "evidenceUrl": "https://abapconf.org/abapconf2026/sessions/v5/",
-    "evidenceNote": "Session V5 names Holger, 45 minutes, English. Recording link currently points to the channel, not a specific video.",
+    "evidenceNote": "Session V5 names Holger, 45 minutes, English. Recording link currently points to the channel, not a specific video. The supplied presentation microsite is reachable; its JavaScript-rendered slides were not independently reviewed.",
     "verification": "Source reviewed",
-    "checked": "2026-11-24"
+    "checked": "2026-11-24",
+    "links": [
+      {
+        "label": "Presentation microsite",
+        "url": "https://hobru.github.io/abapconf-2026/"
+      }
+    ]
   },
   {
     "id": "low-code-guest-2022",
@@ -112,31 +130,45 @@
       {
         "label": "Apple Podcasts",
         "url": "https://podcasts.apple.com/us/podcast/low-code-with-sap-with-holger-bruchelt/id1377522933?i=1000565373376"
+      },
+      {
+        "label": "YouTube interview",
+        "url": "https://www.youtube.com/watch?v=FreB9RkauIU"
       }
     ],
     "evidenceUrl": "https://www.iheart.com/podcast/256-microsoft-innovation-podca-31105959/episode/low-code-with-sap-with-holger-97975560/",
-    "evidenceNote": "Episode page reviewed; indexed iHeart entry supplies 6 June 2022 and 34 minutes. Multiple platform listings are the same appearance.",
+    "evidenceNote": "Episode page reviewed; indexed iHeart entry supplies 6 June 2022 and 34 minutes. Multiple platform listings are the same appearance. YouTube metadata confirms the matching guest-interview title; the video and audio listings are the same appearance.",
     "verification": "Source reviewed",
     "checked": "2026-11-24",
     "featured": true
   },
   {
     "id": "heise-meets-security-2025",
-    "title": "Holger Bruchelt von Microsoft und Holger H\u00fcgel von SecurityBridge",
+    "title": "IT Security: Wir m\u00fcssen das Bewusstsein auf CEO- und Aufsichtsratsebene schaffen",
     "kind": "Interview",
-    "publisher": "BI-Spektrum / heise meets",
-    "date": "2025-06-10",
-    "dateNote": "Article publication date, not the audio recording date.",
+    "publisher": "heise meets / BI-Spektrum",
+    "date": "2025",
+    "dateNote": "Year of the original interview coverage. The heise article was published 3 April 2025; the BI-Spektrum summary on 10 June 2025. Neither is assumed to be the audio recording date.",
     "role": "Interviewee",
     "topics": [
       "Security",
       "SAP"
     ],
-    "url": "https://www.sigs.de/artikel/holger-bruchelt-von-microsoft-und-holger-huegel-von-securitybridge/",
-    "evidenceUrl": "https://www.sigs.de/experten/holger-bruchelt/",
-    "evidenceNote": "The linked article is a condensed version of a heise meets audio interview, as identified by its publisher.",
+    "url": "https://heise-meets.podigee.io/147-securitybridge",
+    "evidenceUrl": "https://heise-meets.podigee.io/147-securitybridge",
+    "evidenceNote": "The original episode's shownotes and transcript explicitly identify Holger Bruchelt and Holger H\u00fcgel. The heise article and later BI-Spektrum summary cover the same interview, not additional appearances.",
     "verification": "Source reviewed",
-    "checked": "2026-11-24"
+    "checked": "2026-11-24",
+    "links": [
+      {
+        "label": "heise article",
+        "url": "https://www.heise.de/news/heise-meets-SAP-und-Microsoft-wie-passt-das-zusammen-10338955.html"
+      },
+      {
+        "label": "BI-Spektrum summary",
+        "url": "https://www.sigs.de/artikel/holger-bruchelt-von-microsoft-und-holger-huegel-von-securitybridge/"
+      }
+    ]
   },
   {
     "id": "iaa-interview-2025",
@@ -172,7 +204,7 @@
     ],
     "url": "https://sapinsider.org/webinars/using-microsoft-ai-with-your-sap-solutions-today/",
     "evidenceUrl": "https://sapinsider.org/experts/holger-bruchelt/",
-    "evidenceNote": "Holger's expert index lists the webinar. The accessible webinar page lists Robert Holland, so do not claim a confirmed speaking role without checking the recording. Registration required for content.",
+    "evidenceNote": "Holger's expert index lists the webinar. The accessible webinar page lists Robert Holland, so do not claim a confirmed speaking role without checking the recording. Registration required for content. The supplied inventory calls Holger a speaker, but a fresh review of the public webinar page still lists only Robert Holland. The conflicting attribution is unresolved.",
     "verification": "Needs review",
     "checked": "2026-11-24"
   },
@@ -239,7 +271,7 @@
   },
   {
     "id": "scn-mcp-gateway-2026",
-    "title": "Connecting MCP Gateway on Integration Suite with Copilot Studio",
+    "title": "Connecting MCP Gateway on Integration Suite with Copilot Studio - Updating business partners",
     "kind": "Article",
     "publisher": "SAP Community",
     "date": "2026-09-21",
@@ -251,10 +283,10 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/connecting-mcp-gateway-on-integration-suite-with-copilot-studio-updating/ba-p/14488725",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/connecting-mcp-gateway-on-integration-suite-with-copilot-studio-updating/ba-p/14488725",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed."
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date."
   },
   {
     "id": "scn-podcast-news",
@@ -542,16 +574,16 @@
     "kind": "Profile",
     "publisher": "YouTube",
     "date": null,
-    "role": "Named channel owner; identity link needs review",
+    "role": "Named channel publisher",
     "topics": [
       "Duet Enterprise",
       "SharePoint",
       "SAP workflows"
     ],
-    "url": "https://www.youtube.com/hobru2000",
-    "evidenceUrl": "https://www.youtube.com/hobru2000",
-    "evidenceNote": "Indexed channel uses Holger's name and contains a Duet Enterprise overview playlist and an Outlook SAP workflow walkthrough. Exact video/playlist URLs and ownership cross-link still to verify; do not infer publication dates from relative ages.",
-    "verification": "Needs review",
+    "url": "https://www.youtube.com/@hobru2000",
+    "evidenceUrl": "https://www.youtube.com/watch?v=yQztEdyBQPk",
+    "evidenceNote": "YouTube's metadata for the SAP/Outlook workflow walkthrough names Holger Bruchelt and links directly to @hobru2000, corroborating the channel identified by the supplied inventory. Channel metadata does not establish authorship of every playlist item.",
+    "verification": "Source reviewed",
     "checked": "2026-11-24"
   },
   {
@@ -595,18 +627,18 @@
   },
   {
     "id": "scn-13932543",
-    "title": "Getting started - Send Events from SAP S/4HANA to ...",
+    "title": "Getting started - Send Events from SAP S/4HANA to SAP Event Mesh on Business Technology Platform",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2024-11-13",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP"
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/getting-started-send-events-from-sap-s-4hana-to-sap-event-mesh-on-business/ba-p/13932543",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/getting-started-send-events-from-sap-s-4hana-to-sap-event-mesh-on-business/ba-p/13932543",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -630,11 +662,11 @@
   },
   {
     "id": "scn-13563107",
-    "title": "The ways of the modern ABAP developer - with Micro...",
+    "title": "The ways of the modern ABAP developer - with Microsoft",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2023-03-06",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP",
@@ -643,17 +675,17 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/the-ways-of-the-modern-abap-developer-with-microsoft/ba-p/13563107",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/the-ways-of-the-modern-abap-developer-with-microsoft/ba-p/13563107",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
   {
     "id": "scn-13521339",
-    "title": "Leveraging BTP services in Microsoft Power Platfor...",
+    "title": "Leveraging BTP services in Microsoft Power Platform",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2022-07-13",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP",
@@ -662,17 +694,17 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-btp-services-in-microsoft-power-platform/ba-p/13521339",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-btp-services-in-microsoft-power-platform/ba-p/13521339",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
   {
     "id": "scn-13560266",
-    "title": "Looking back at 2022 from a SAP and Microsoft pers...",
+    "title": "Looking back at 2022 from a SAP and Microsoft perspective",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2022-12-29",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP",
@@ -680,7 +712,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/looking-back-at-2022-from-a-sap-and-microsoft-perspective/ba-p/13560266",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/looking-back-at-2022-from-a-sap-and-microsoft-perspective/ba-p/13560266",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -705,11 +737,11 @@
   },
   {
     "id": "scn-13532817",
-    "title": "Leveraging Azure Active Directory and SAP Business...",
+    "title": "Leveraging Azure Active Directory and SAP Business Technology Platform",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2021-12-15",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP",
@@ -717,7 +749,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-azure-active-directory-and-sap-business-technology-platform/ba-p/13532817",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/leveraging-azure-active-directory-and-sap-business-technology-platform/ba-p/13532817",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -994,11 +1026,11 @@
   },
   {
     "id": "scn-13395510",
-    "title": "SAPPHIRE 2019 - SAP and Microsoft: Infrastructure,...",
+    "title": "SAPPHIRE 2019 - SAP and Microsoft: Infrastructure, Integration and DevOps",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2019-04-30",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP",
@@ -1006,7 +1038,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2019-sap-and-microsoft-infrastructure-integration-and-devops/ba-p/13395510",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/sapphire-2019-sap-and-microsoft-infrastructure-integration-and-devops/ba-p/13395510",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1086,11 +1118,11 @@
   },
   {
     "id": "scn-13397545",
-    "title": "Discussions and Feedback at SAP TechEd Barcelonas ...",
+    "title": "Discussions and Feedback at SAP TechEd Barcelonas 2019 Developer Garage",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2019-10-16",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Author",
     "topics": [
       "SAP",
@@ -1098,7 +1130,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-members/discussions-and-feedback-at-sap-teched-barcelonas-2019-developer-garage/ba-p/13397545",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-members/discussions-and-feedback-at-sap-teched-barcelonas-2019-developer-garage/ba-p/13397545",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline links Holger-Bruchelt to profile 3494. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1521,11 +1553,11 @@
   },
   {
     "id": "scn-12910998",
-    "title": "Encryption everywhere -- Securing your Duet landsc...",
+    "title": "Encryption everywhere -- Securing your Duet landscape",
     "kind": "Article",
     "publisher": "SAP Community / SCN",
     "date": "2009-10-03",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Possible previous-account author; attribution unconfirmed",
     "topics": [
       "SAP",
@@ -1533,7 +1565,7 @@
     ],
     "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/encryption-everywhere-securing-your-duet-landscape/ba-p/12910998",
     "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/encryption-everywhere-securing-your-duet-landscape/ba-p/12910998",
-    "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt: byline is Former Member and the result carries a 'holger bruchelt' tag. Older posts may belong to a previous user ID; this individual post's authorship is not confirmed. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "Needs review",
     "checked": "2026-11-24"
   },
@@ -1593,21 +1625,27 @@
   },
   {
     "id": "scn-279753",
-    "title": "\ud83d\udd34 Event-Driven Architecture: Bringing SAP and Mi...",
-    "kind": "Mention",
+    "title": "Event-Driven Architecture: Bringing SAP and Microsoft closer together in real time",
+    "kind": "Talk",
     "publisher": "SAP Community / SCN",
     "date": "2023-08-15",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
-    "role": "Announced speaker",
+    "dateNote": "Announcement publication date from the supplied search excerpt, not the session or recording date.",
+    "role": "Listed speaker",
     "topics": [
       "SAP",
       "Microsoft"
     ],
     "url": "https://community.sap.com/t5/devtoberfest/event-driven-architecture-bringing-sap-and-microsoft-closer-together-in/ec-p/279753",
     "evidenceUrl": "https://community.sap.com/t5/devtoberfest/event-driven-architecture-bringing-sap-and-microsoft-closer-together-in/ec-p/279753",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: ajmaradiaga): The invitation names Holger and Karsten Strothmann. Delivery and the event date are not established. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
-    "verification": "User-provided excerpt",
-    "checked": "2026-11-24"
+    "evidenceNote": "The SAP Community invitation names Holger and Karsten Strothmann. The supplied recording has the matching title in SAP Developers' YouTube metadata. The recording itself was not watched; the displayed date belongs to the announcement.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "links": [
+      {
+        "label": "YouTube recording",
+        "url": "https://www.youtube.com/watch?v=_kMVnPnmy2U"
+      }
+    ]
   },
   {
     "id": "scn-13157479",
@@ -1648,11 +1686,11 @@
   },
   {
     "id": "scn-13029242",
-    "title": "GWPAM & Duet Enterprise at TechEd Amsterdam -- her...",
+    "title": "GWPAM & Duet Enterprise at TechEd Amsterdam -- here we come!",
     "kind": "Mention",
     "publisher": "SAP Community / SCN",
     "date": "2013-11-02",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Announced session presenter",
     "topics": [
       "SAP",
@@ -1662,17 +1700,17 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/gwpam-amp-duet-enterprise-at-teched-amsterdam-here-we-come/ba-p/13029242",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/gwpam-amp-duet-enterprise-at-teched-amsterdam-here-we-come/ba-p/13029242",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The Amsterdam schedule names Holger. Related announcement 13013853 covers the same event, not another proven appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The Amsterdam schedule names Holger. Related announcement 13013853 covers the same event, not another proven appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
   {
     "id": "scn-13138635",
-    "title": "SAP Gateway for Microsoft Trial Now Available in S...",
+    "title": "SAP Gateway for Microsoft Trial Now Available in SAP Store!",
     "kind": "Mention",
     "publisher": "SAP Community / SCN",
     "date": "2015-01-19",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Named course instructor",
     "topics": [
       "SAP",
@@ -1681,7 +1719,7 @@
     ],
     "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-trial-now-available-in-sap-store/ba-p/13138635",
     "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-trial-now-available-in-sap-store/ba-p/13138635",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger and Shoshanna Budzianowski as Microsoft Virtual Academy instructors. The linked source is a course announcement. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The announcement names Holger and Shoshanna Budzianowski as Microsoft Virtual Academy instructors. The linked source is a course announcement. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1707,11 +1745,11 @@
   },
   {
     "id": "scn-13013853",
-    "title": "SAP NetWeaver Gateway & Duet Enterprise Coming to ...",
+    "title": "SAP NetWeaver Gateway & Duet Enterprise Coming to TechEd Amsterdam",
     "kind": "Mention",
     "publisher": "SAP Community / SCN",
     "date": "2013-10-28",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Announced session presenter",
     "topics": [
       "SAP",
@@ -1722,7 +1760,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-netweaver-gateway-amp-duet-enterprise-coming-to-teched-amsterdam/ba-p/13013853",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-netweaver-gateway-amp-duet-enterprise-coming-to-teched-amsterdam/ba-p/13013853",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The Amsterdam schedule names Holger for November 5/6 sessions. Related announcement 13029242 covers the same event, not another proven appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The Amsterdam schedule names Holger for November 5/6 sessions. Related announcement 13029242 covers the same event, not another proven appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -1781,11 +1819,11 @@
   },
   {
     "id": "scn-13035947",
-    "title": "Day 1 Highlights from SAP NetWeaver Gateway and Du...",
+    "title": "Day 1 Highlights from SAP NetWeaver Gateway and Duet Enterprise team at TechEd Amsterdam",
     "kind": "Mention",
     "publisher": "SAP Community / SCN",
     "date": "2013-11-06",
-    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date. Title retained as displayed, including trailing ellipsis; full title not independently reviewed.",
+    "dateNote": "Displayed search-result publication date, not independently verified or an event/recording date.",
     "role": "Session presenter mentioned in retrospective",
     "topics": [
       "SAP",
@@ -1795,7 +1833,7 @@
     ],
     "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/day-1-highlights-from-sap-netweaver-gateway-and-duet-enterprise-team-at/ba-p/13035947",
     "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/day-1-highlights-from-sap-netweaver-gateway-and-duet-enterprise-team-at/ba-p/13035947",
-    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The event report explicitly refers to Holger's Microsoft and SAP expert sessions. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
+    "evidenceNote": "User-provided SAP Community search excerpt (byline: Former Member): The event report explicitly refers to Holger's Microsoft and SAP expert sessions. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403. Full title supplied by the reference inventory.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
   },
@@ -2101,5 +2139,426 @@
     "evidenceNote": "User-provided SAP Community search excerpt (byline: MartinRaepple): Martin Raepple says that he and Holger walk through the scenario in the SAP on Azure video podcast. This reference links to the article discussing that appearance. Original page not reviewed; direct SAP Community retrieval previously returned HTTP 403.",
     "verification": "User-provided excerpt",
     "checked": "2026-11-24"
+  },
+  {
+    "id": "scn-13066178",
+    "title": "SAP mass update via Excel made easy - SAP Gateway for Microsoft",
+    "kind": "Article",
+    "publisher": "SAP Community / SCN",
+    "date": "2013-12-08",
+    "role": "Author",
+    "topics": [
+      "SAP Gateway",
+      "Excel",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-mass-update-via-excel-made-easy-sap-gateway-for-microsoft/ba-p/13066178",
+    "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/sap-gateway-for-microsoft-business-use-cases-offline-speed-demo/ba-p/13109016",
+    "evidenceNote": "The supplied inventory identifies this as the original Excel mass-update article. The already-catalogued contemporary SAP Community reference explicitly credits Holger's article; the original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-12943669",
+    "title": "Duet Enterprise Feature pack 1 - now general available",
+    "kind": "Article",
+    "publisher": "SAP Community / SCN",
+    "date": "2011-12-01",
+    "role": "Possible previous-account author; attribution unconfirmed",
+    "topics": [
+      "Duet Enterprise",
+      "SharePoint"
+    ],
+    "url": "https://community.sap.com/t5/technology-blogs-by-sap/duet-enterprise-feature-pack-1-now-general-available/m-p/12943669",
+    "evidenceUrl": "https://community.sap.com/t5/technology-blogs-by-sap/duet-enterprise-feature-pack-1-now-general-available/m-p/12943669",
+    "evidenceNote": "Supplied as a possible authorship lead based on role/topic overlap. No exact-name byline, signature or independent authorship evidence was supplied.",
+    "verification": "Needs review",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-12929790",
+    "title": "Overview of Level Approach Duet Enterprise Partner Activities",
+    "kind": "Article",
+    "publisher": "SAP Community / SCN",
+    "date": "2012-07-27",
+    "role": "Possible previous-account author; attribution unconfirmed",
+    "topics": [
+      "Duet Enterprise",
+      "SharePoint"
+    ],
+    "url": "https://community.sap.com/t5/technology-blogs-by-sap/overview-of-level-approach-duet-enterprise-partner-activities/ba-p/12929790",
+    "evidenceUrl": "https://community.sap.com/t5/technology-blogs-by-sap/overview-of-level-approach-duet-enterprise-partner-activities/ba-p/12929790",
+    "evidenceNote": "Supplied as a possible authorship lead based on role/topic overlap. No exact-name byline, signature or independent authorship evidence was supplied.",
+    "verification": "Needs review",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-12997415",
+    "title": "Attend Duet Enterprise sessions at TechEd in Las Vegas!",
+    "kind": "Mention",
+    "publisher": "SAP Community / SCN",
+    "date": "2012",
+    "role": "Event/session mention",
+    "topics": [
+      "Duet Enterprise",
+      "SAP Gateway",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/attend-duet-enterprise-sessions-at-teched-in-las-vegas/ba-p/12997415",
+    "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/attend-duet-enterprise-sessions-at-teched-in-las-vegas/ba-p/12997415",
+    "evidenceNote": "The supplied reference inventory identifies Holger in this event/session context. This is a third-party article reference, not article authorship or a recovered recording. The original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-12971599",
+    "title": "Engage with us at TechEd Madrid!",
+    "kind": "Mention",
+    "publisher": "SAP Community / SCN",
+    "date": "2012",
+    "role": "Named event contributor",
+    "topics": [
+      "Duet Enterprise",
+      "SAP Gateway",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/engage-with-us-at-teched-madrid/ba-p/12971599",
+    "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/engage-with-us-at-teched-madrid/ba-p/12971599",
+    "evidenceNote": "The supplied reference inventory identifies Holger in this event/session context. This is a third-party article reference, not article authorship or a recovered recording. The original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-12963020",
+    "title": "Meet Duet Enterprise at TechEd and Sapphire Madrid!",
+    "kind": "Mention",
+    "publisher": "SAP Community / SCN",
+    "date": "2012",
+    "role": "Announced moderator / speaker",
+    "topics": [
+      "Duet Enterprise",
+      "SAP Gateway",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/meet-duet-enterprise-at-teched-and-sapphire-madrid/ba-p/12963020",
+    "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/meet-duet-enterprise-at-teched-and-sapphire-madrid/ba-p/12963020",
+    "evidenceNote": "The supplied reference inventory identifies Holger in this event/session context. This is a third-party article reference, not article authorship or a recovered recording. The original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-12975113",
+    "title": "SAP NetWeaver Gateway and Duet Enterprise Story Sharing from InnoJam Madrid",
+    "kind": "Mention",
+    "publisher": "SAP Community / SCN",
+    "date": "2012",
+    "role": "Participant / presenter mentioned in event coverage",
+    "topics": [
+      "Duet Enterprise",
+      "SAP Gateway",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-netweaver-gateway-and-duet-enterprise-story-sharing-from-innojam-madrid/ba-p/12975113",
+    "evidenceUrl": "https://community.sap.com/t5/technology-blog-posts-by-sap/sap-netweaver-gateway-and-duet-enterprise-story-sharing-from-innojam-madrid/ba-p/12975113",
+    "evidenceNote": "The supplied reference inventory identifies Holger in this event/session context. This is a third-party article reference, not article authorship or a recovered recording. The original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-13126502",
+    "title": "Summary: Deep Dive SAP Gateway for Microsoft Microsoft Azure webinar!",
+    "kind": "Mention",
+    "publisher": "SAP Community / SCN",
+    "date": "2014",
+    "role": "Webinar presenter mentioned in retrospective",
+    "topics": [
+      "Duet Enterprise",
+      "SAP Gateway",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/summary-deep-dive-sap-gateway-for-microsoft-microsoft-azure-webinar/ba-p/13126502",
+    "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/summary-deep-dive-sap-gateway-for-microsoft-microsoft-azure-webinar/ba-p/13126502",
+    "evidenceNote": "The supplied reference inventory identifies Holger in this event/session context. This is a third-party article reference, not article authorship or a recovered recording. The original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "scn-13105963",
+    "title": "Kick Start of 2014 SAPTechEd && DCode Berlin!!",
+    "kind": "Mention",
+    "publisher": "SAP Community / SCN",
+    "date": "2014",
+    "role": "Announced session contributor",
+    "topics": [
+      "Duet Enterprise",
+      "SAP Gateway",
+      "Microsoft"
+    ],
+    "url": "https://community.sap.com/t5/additional-blog-posts-by-sap/kick-start-of-2014-sapteched-amp-amp-dcode-berlin/ba-p/13105963",
+    "evidenceUrl": "https://community.sap.com/t5/additional-blog-posts-by-sap/kick-start-of-2014-sapteched-amp-amp-dcode-berlin/ba-p/13105963",
+    "evidenceNote": "The supplied reference inventory identifies Holger in this event/session context. This is a third-party article reference, not article authorship or a recovered recording. The original page has not been independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Date precision follows the supplied reference inventory; not an independently established event or recording date."
+  },
+  {
+    "id": "outlook-workflow-demo-2016",
+    "title": "Approving SAP Workflows from Outlook - End to End Walkthrough",
+    "kind": "Video",
+    "publisher": "YouTube / Holger Bruchelt",
+    "date": "2016",
+    "role": "Video publisher",
+    "topics": [
+      "SAP workflows",
+      "Outlook",
+      "Duet Enterprise"
+    ],
+    "url": "https://www.youtube.com/watch?v=yQztEdyBQPk",
+    "evidenceUrl": "https://www.youtube.com/watch?v=yQztEdyBQPk",
+    "evidenceNote": "YouTube metadata confirms the video title and names Holger Bruchelt as the channel publisher, linking to @hobru2000. Metadata reviewed; the video itself was not watched.",
+    "verification": "Source reviewed",
+    "checked": "2026-11-24",
+    "dateNote": "Publication year from the supplied reference inventory; exact upload date not independently reviewed."
+  },
+  {
+    "id": "power-platform-webinar-2021",
+    "title": "Extend SAP solutions using Microsoft Power Platform",
+    "kind": "Webinar",
+    "publisher": "Microsoft Power Platform",
+    "date": "2021",
+    "role": "Listed speaker",
+    "topics": [
+      "SAP",
+      "Power Platform",
+      "Integration"
+    ],
+    "url": "https://www.youtube.com/watch?v=phS-2TH_n5A",
+    "evidenceUrl": "https://info.microsoft.com/ww-ondemand-Extend-SAP-solutions-using-Microsoft-Power-Platform.html?LCID=EN-US",
+    "evidenceNote": "Microsoft's public registration page names Holger Bruchelt and Ronald Chang as speakers. YouTube metadata confirms the matching recording title. Registration may be required on the landing page.",
+    "verification": "Source reviewed",
+    "checked": "2026-11-24",
+    "dateNote": "Year from the supplied reference inventory; exact event/upload date not independently established."
+  },
+  {
+    "id": "azure-friday-2022",
+    "title": "Working with data from SAP in Azure and Office 365",
+    "kind": "Interview",
+    "publisher": "Microsoft / Azure Friday",
+    "date": "2022-01-07",
+    "role": "Guest with Scott Hanselman",
+    "topics": [
+      "SAP on Azure",
+      "Power Platform",
+      "API Management",
+      "Office 365"
+    ],
+    "url": "https://learn.microsoft.com/en-us/shows/azure-friday/working-with-data-from-sap-in-azure-and-office-365",
+    "evidenceUrl": "https://learn.microsoft.com/en-us/shows/azure-friday/working-with-data-from-sap-in-azure-and-office-365",
+    "evidenceNote": "Microsoft Learn explicitly names Holger joining Scott Hanselman and lists the SAP, Power Platform, API Management, Logic Apps and Office demonstrations.",
+    "verification": "Source reviewed",
+    "checked": "2026-11-24",
+    "dateNote": "Publication date supplied by the reference inventory; the reviewed episode description confirms participation, not the recording date."
+  },
+  {
+    "id": "sap-explainer-2023",
+    "title": "SAP - What is it? With Holger Bruchelt",
+    "kind": "Interview",
+    "publisher": "Microsoft Power Platform",
+    "date": "2023",
+    "role": "Named guest",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Power Platform"
+    ],
+    "url": "https://www.youtube.com/watch?v=k_bi5411Bzk",
+    "evidenceUrl": "https://www.youtube.com/watch?v=k_bi5411Bzk",
+    "evidenceNote": "YouTube metadata confirms the title explicitly naming Holger and the publishing channel. Metadata reviewed; the recording itself was not watched.",
+    "verification": "Source reviewed",
+    "checked": "2026-11-24",
+    "dateNote": "Year from the supplied reference inventory; exact upload date not independently reviewed."
+  },
+  {
+    "id": "boring-enterprise-nerds-2024",
+    "title": "Show and Tell: SAP + Microsoft Goodies with Holger Bruchelt",
+    "kind": "Interview",
+    "publisher": "Boring Enterprise Nerds",
+    "date": "2024",
+    "role": "Named guest",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Power Platform"
+    ],
+    "url": "https://www.youtube.com/watch?v=RmcXQIRTr7k",
+    "evidenceUrl": "https://www.youtube.com/watch?v=RmcXQIRTr7k",
+    "evidenceNote": "YouTube metadata confirms the title explicitly naming Holger and the publishing channel. Metadata reviewed; the recording itself was not watched.",
+    "verification": "Source reviewed",
+    "checked": "2026-11-24",
+    "dateNote": "Year from the supplied reference inventory; exact upload date not independently reviewed."
+  },
+  {
+    "id": "sap-on-azure-series",
+    "title": "SAP on Azure Video Podcast - series and author archive",
+    "kind": "Profile",
+    "publisher": "SAP on Azure",
+    "date": null,
+    "role": "Named series contributor",
+    "topics": [
+      "SAP on Azure",
+      "Community"
+    ],
+    "url": "https://www.saponazurepodcast.de/",
+    "evidenceUrl": "https://www.saponazurepodcast.de/authors/holger-bruchelt/",
+    "evidenceNote": "The public author archive explicitly lists Holger on 18 episodes. This hub is not an additional episode or proof of participation in every indexed episode.",
+    "verification": "Source reviewed",
+    "checked": "2026-11-24",
+    "links": [
+      {
+        "label": "YouTube channel",
+        "url": "https://www.youtube.com/@SAPonAzure"
+      }
+    ]
+  },
+  {
+    "id": "teched-bangalore-linkedin-2023",
+    "title": "SAP TechEd Bangalore / Terraform for SAP BTP and Azure",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / kshanth",
+    "date": "2023",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/kshanth_sap-microsoft-sapteched-activity-7124076053043560448-MdOt",
+    "evidenceUrl": "https://www.linkedin.com/posts/kshanth_sap-microsoft-sapteched-activity-7124076053043560448-MdOt",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: promotes a hands-on workshop involving Holger. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed. Workshop mention only; exact session ownership and delivery are not established.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
+  },
+  {
+    "id": "dsag-partnerbeirat-linkedin-2023",
+    "title": "DSAG Partnerbeirat",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / DSAG",
+    "date": "2023",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/dsag_mehr-informationen-findet-ihr-hier-activity-7121061295449088001-uNf4",
+    "evidenceUrl": "https://www.linkedin.com/posts/dsag_mehr-informationen-findet-ihr-hier-activity-7121061295449088001-uNf4",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: DSAG announcement naming Holger in the partner advisory-board context. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
+  },
+  {
+    "id": "copilot-sap-sharing-linkedin-2024",
+    "title": "Copilot Studio and SAP integration",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / Sheker Kamma",
+    "date": "2024",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/sheker-kamma-2829a010_copilot-studio-and-sap-integration-getting-activity-7165362496785035264-PPQM",
+    "evidenceUrl": "https://www.linkedin.com/posts/sheker-kamma-2829a010_copilot-studio-and-sap-integration-getting-activity-7165362496785035264-PPQM",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: substantial third-party sharing of Holger\u2019s SAP/Copilot Studio content. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
+  },
+  {
+    "id": "copilot-getting-started-linkedin-2024",
+    "title": "Getting started with Microsoft Copilot Studio & SAP",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / Simon Weise O'Connor",
+    "date": "2024",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/simon-weise-o-connor-0581b52_getting-started-with-microsoft-copilot-studio-activity-7179065460313731072-bx7g",
+    "evidenceUrl": "https://www.linkedin.com/posts/simon-weise-o-connor-0581b52_getting-started-with-microsoft-copilot-studio-activity-7179065460313731072-bx7g",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: third-party amplification of Holger\u2019s work. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
+  },
+  {
+    "id": "sap-explainer-sharing-linkedin-2024",
+    "title": "SAP - What is it? With Holger Bruchelt",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / eqfrey",
+    "date": "2024",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/eqfrey_sap-what-is-it-with-holger-bruchelt-activity-7155729540730769408-SWEF",
+    "evidenceUrl": "https://www.linkedin.com/posts/eqfrey_sap-what-is-it-with-holger-bruchelt-activity-7155729540730769408-SWEF",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: shares the Microsoft Power Platform video. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
+  },
+  {
+    "id": "securitybridge-copilot-linkedin-2025",
+    "title": "SAP Security Reinvented: How SecurityBridge + Microsoft Copilot Catch Threats Before They Hit",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / SecurityBridge",
+    "date": "2025",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/securitybridge_sap-security-reinvented-how-securitybridge-activity-7330951762842939393-fvGv",
+    "evidenceUrl": "https://www.linkedin.com/posts/securitybridge_sap-security-reinvented-how-securitybridge-activity-7330951762842939393-fvGv",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: promotes the SAP security / Sentinel / Copilot demonstration. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
+  },
+  {
+    "id": "teched-berlin-linkedin-2026",
+    "title": "SAP TechEd Berlin \u2014 Microsoft and SAP sessions",
+    "kind": "LinkedIn",
+    "publisher": "LinkedIn / Ross Kulczyk",
+    "date": "2026",
+    "role": "Third-party mention / sharing",
+    "topics": [
+      "SAP",
+      "Microsoft",
+      "Community"
+    ],
+    "url": "https://www.linkedin.com/posts/ross-kulczyk-ba750b89_sap-microsoft-azure-activity-7519468566170144768-owMJ",
+    "evidenceUrl": "https://www.linkedin.com/posts/ross-kulczyk-ba750b89_sap-microsoft-azure-activity-7519468566170144768-owMJ",
+    "evidenceNote": "The supplied reference inventory describes this third-party post as follows: credits Microsoft/SAP sessions and Holger\u2019s GitHub starter-kit contribution. This is a mention/sharing reference, not a Holger-authored post. The original post was not independently reviewed.",
+    "verification": "User-provided reference",
+    "checked": "2026-11-24",
+    "dateNote": "Post year from the supplied inventory; not an event or recording date."
   }
 ]

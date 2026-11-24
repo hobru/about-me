@@ -5,8 +5,8 @@ A source-linked collection of public professional references and a responsive st
 ## What is collected
 
 - **314 podcast episode records**, episodes 1-314, from the public [SAP on Azure index](https://www.saponazurepodcast.de/), spanning July 2020-November 2026. This is a series-level collection, not 314 individually confirmed appearances by Holger.
-- **114 additional public references:** conference sessions, interviews, articles, a book, LinkedIn mentions, projects, profiles, and a presentation-library index. Together with the podcast index, the catalogue contains **428 records**. Related records are not necessarily unique appearances: an organizer post and its talk are separate references.
-- **406 records are included in the public website:** 314 podcast episodes and 92 other references. The 22 records marked **Needs review** remain in the research inputs, but are excluded from generated JS, the JSON download, and the standalone HTML. Counts and year coverage on the page reflect only published records.
+- **136 additional public-source research references:** conference sessions, interviews, articles, a book, LinkedIn mentions, projects, profiles, and a presentation-library index. Together with the podcast index, the catalogue contains **450 records**. Related records are not necessarily unique appearances: an organizer post and its talk are separate references.
+- **427 records are included in the public website:** 314 podcast episodes and 113 other references. The 23 records marked **Needs review** remain in the research inputs, but are excluded from generated JS, the JSON download, and the standalone HTML. Counts and year coverage on the page reflect only published records.
 - **A separate private internal catalogue** is delivered in this Copilot session, outside this repository. No internal titles, links, decks, recordings, or source data are included in the deployable website.
 
 ### Requested sources and representative findings
@@ -19,11 +19,11 @@ A source-linked collection of public professional references and a responsive st
 | Duet / Duet Enterprise | [2012 webinar announcement](https://community.sap.com/t5/technology-blog-posts-by-sap/webinar-duet-enterprise-implementation-by-campana-amp-schott-english/ba-p/12998147), installation workshop, Amsterdam/Madrid reports, original Duet and SPNego leads from 2008-2010 | Supplied excerpts enrich the known dates and roles. Original Duet posts under Former Member are possible previous-account work, not confirmed bylines. The German webinar announcement is a related source, not a second claimed appearance. Recordings remain to locate. |
 | SAP Community / SCN blogs | [Beauty of OData](https://community.sap.com/t5/technology-blog-posts-by-members/beauty-of-odata/ba-p/13384175), ABAP SDK for Azure, Event Mesh, Power Platform, DevOps, MCP, podcast news, and older event posts | Imported user-supplied search excerpts with profile 3494 bylines, explicit co-author credits, third-party mentions, and separate uncertain legacy leads. Full-page review is still pending. Search-result dates and truncated titles are labelled as such. |
 | Microsoft / Azure blogs | [Azure reliability article with explicit Holger co-author credit](https://techcommunity.microsoft.com/blog/reliability-and-resiliency-in-azure/from-proactive-detection-to-action-how-azure-protects-mission-critical-workloads/4569949) | Verified on Microsoft Tech Community. Main Azure Blog authorship is **not established** by this result. Relevant Azure Blog search hits had other bylines and are not claimed as Holger's work. |
-| LinkedIn | Organizer posts from SIT Weinheim and Theobald Software; professional profile | Third-party mentions, not Holger-authored posts. A targeted public search for his own post URLs yielded none; a user-provided LinkedIn export or public permalinks would improve coverage. No login restrictions bypassed. |
-| Other media | [Low Code with SAP podcast interview, 2022](https://www.theintelligenceagepodcast.com/low-code-with-sap-with-holger-bruchelt/), heise meets / BI-Spektrum security interview, SAP IAA Mobility interview | Podcast platforms are deduplicated as related links. Original heise audio URL and SAP video details remain to verify. |
+| LinkedIn | Organizer posts from SIT Weinheim and Theobald Software; seven supplied posts about TechEd, DSAG, Copilot, Power Platform, and security; professional profile | Third-party mentions/sharing, not Holger-authored posts. Supplied references retain their provenance rather than claiming fresh full-post review. A user-provided export or own-post permalinks would improve coverage. No login restrictions bypassed. |
+| Other media | [Low Code with SAP podcast interview, 2022](https://www.theintelligenceagepodcast.com/low-code-with-sap-with-holger-bruchelt/), Azure Friday, Power Platform webinar, personal Outlook demo, Boring Enterprise Nerds, heise meets, SAP IAA Mobility interview | Platforms, locale aliases and interview summaries are deduplicated as related links. Original heise shownotes/transcript and Microsoft speaker descriptions were reviewed; video metadata review is distinguished from watching a recording. |
 | Presentations and books | [19-file public slide library](https://github.com/hobru/SAPonAzure/tree/master/Presentations), [Integration von SAP und Microsoft, 2018](https://www.rheinwerk-verlag.de/integration-von-sap-und-microsoft-der-praktische-leitfaden/) | Library is indexed once; guest slides are not attributed to Holger. Book publisher confirms co-authorship with Thomas Hucke. |
 
-Other leads: ABAPConf 2026 session V5; an older `hobru2000` YouTube channel with a Duet overview playlist and an Outlook/SAP workflow walkthrough (ownership cross-link and individual URLs still to verify).
+ABAPConf 2026 session V5 includes the supplied presentation microsite. YouTube metadata for the Outlook/SAP workflow walkthrough names Holger and links to `@hobru2000`, corroborating the previously uncertain channel. This does not attribute every playlist item to him.
 
 ### SAP Community excerpt expansion
 
@@ -35,13 +35,21 @@ The additions include three explicitly attributed SAP CodeTalk interviews from 2
 
 Direct SAP Community retrieval previously returned HTTP 403. The supplied excerpts are usable metadata evidence, but do not establish why access failed or mean the original pages were reviewed. Only metadata and original attribution notes are retained; signed-in navigation, notification counts, private-message links, and copied article text are excluded.
 
+### Supplied inventory cross-check
+
+Reconciled **95 distinct canonical public links** across the supplied master index, SAP Community list, media list and LinkedIn list against primary, attribution and related URLs. This adds **22 research records: 20 publishable references and two uncertain Duet authorship leads**. Another **39 existing records** are enriched, including **18 episode-specific contributor associations independently confirmed on the [public author archive](https://www.saponazurepodcast.de/authors/holger-bruchelt/).** The complete episode snapshot remains 314, not 332.
+
+The existing personal-channel record is now publishable after metadata corroboration. The heise audio/transcript, April heise coverage and June BI-Spektrum summary are one interview; Low Code's YouTube recording is another platform for its existing interview. SAP video locale URLs and Devtoberfest event-path aliases are not new appearances. Supplied complete titles and supporting presentation/recording links enrich existing entries.
+
+The supplied list's SAPinsider 2024 speaker claim conflicts with the freshly reviewed public speaker block, so that entry remains withheld. The six stronger legacy-authorship assertions in the inventory are retained as research leads rather than silently treated as independently recovered migration/signature evidence. The workshop contact reference remains distinct from confirmed authorship or proof of a delivered presentation. Two additional uncertain Duet articles are also withheld. The supplied inventories' own "verified" labels are not adopted wholesale.
+
 ## Website layout
 
 **Editorial personal homepage + searchable professional library**, rather than a chronological social feed:
 
 1. **Identity and focus:** short positioning statement, SAP/Microsoft integration, AI/agents, data/security, and direct podcast/GitHub links.
 2. **Selected work:** a small editorial selection of a recent talk, milestone episode, guest appearance, and historical session. `featured` flags control this; there is no invented popularity ranking.
-3. **Full catalogue:** keyword search, format/year/evidence filters, newest-first ordering, incremental rendering, source links, exact roles, and expandable evidence/date notes.
+3. **Full catalogue:** keyword search, multi-select format checkboxes, year/evidence filters, newest-first ordering, incremental rendering, source links, exact roles, and expandable evidence/date notes. Select any combination of formats, choose **Without podcasts** to omit the series episode records, or **All formats** to restore them. Deselecting every format shows no matches; **Reset** clears all filters. Listen / Read / Build select just their corresponding format.
 4. **About and professional profiles:** concise introduction and links to public professional profiles.
 5. **Internal companion:** a separate authenticated SharePoint/M365 destination, not a hidden public website tab. No internal metadata is shipped with this site.
 
@@ -68,6 +76,7 @@ Evidence labels:
 - **Source reviewed:** relevant public page was read; this is not a guarantee of every linked asset's contents.
 - **Search indexed:** evidence comes from an indexed excerpt, not a full-page review.
 - **User-provided excerpt:** evidence comes from search-result metadata pasted by the user, not an independently reviewed original page.
+- **User-provided reference:** metadata or attribution comes from a supplied reference inventory, not an independently reviewed original. Relevant limitations remain in the source notes.
 - **Series index:** episode metadata imported from the public series index; per-episode participation and every media URL have not been independently checked.
 - **Needs review:** unresolved role, attribution, or identity question; retained for research only and excluded from publication.
 
@@ -101,9 +110,9 @@ python -m http.server 8037 --bind 127.0.0.1 --directory site
 
 Open `http://127.0.0.1:8037`. The generated site also works by opening `site\index.html` directly; data is loaded from a local JS asset, not a cross-origin `fetch`. Node is only needed for the optional JavaScript syntax check.
 
-The importer rejects missing titles/dates, duplicate episode numbers, empty results, and a decrease in the existing snapshot count. Episode 16 has a malformed video link in the source index: its episode page is retained with an explicit caveat and no fabricated YouTube link. Review that at the source. Automated refresh is intentionally not enabled.
+The importer rejects missing titles/dates, duplicate episode numbers, empty results, and a decrease in the existing snapshot count. Refreshes update series metadata while preserving item-level role/evidence/check dates, including unresolved participation questions, instead of replacing them with series-wide assumptions. Episode 16 has a malformed video link in the source index: its episode page is retained with an explicit caveat and no fabricated YouTube link. Review that at the source. Automated refresh is intentionally not enabled.
 
-The SAP Community importer removes search tracking parameters and deduplicates repeated excerpts and existing content IDs, including migrated `m-p` / `ba-p` aliases. The build independently rejects duplicate SAP content IDs. Announcement publication dates do not overwrite existing advertised event dates. Titles ending in an ellipsis are kept as displayed rather than silently reconstructed.
+The SAP Community importer removes search tracking parameters and deduplicates repeated excerpts and existing content IDs, including migrated `m-p` / `ba-p` and event `ec-p` / `ev-p` aliases. The build independently rejects duplicate SAP content IDs. Search imports do not replace reviewed or separately supplied reference evidence with weaker snippets. Announcement publication dates do not overwrite existing advertised event dates. Truncated titles are not silently reconstructed; complete titles supplied separately are identified in the source notes.
 
 The build reads only the two named public datasets and rejects known Microsoft internal source hosts in record URLs. This is a guardrail, **not a general data-loss-prevention classifier**: manually review new public records and every deployment artifact.
 

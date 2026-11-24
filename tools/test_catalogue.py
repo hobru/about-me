@@ -3,7 +3,7 @@ import json
 import unittest
 
 from build import ROOT, publication_records, standalone, validate
-from import_podcast import parse_episodes
+from import_podcast import parse_episodes, preserve_appearance_evidence
 from import_sap_community import merge_results, parse_results
 
 
@@ -40,6 +40,21 @@ class ImportTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     parse_episodes(html, "2026-11-24")
 
+    def test_refresh_preserves_individual_appearance_evidence_and_unresolved_roles(self):
+        for status in ("Source reviewed", "Needs review"):
+            with self.subTest(status=status):
+                prior = parse_episodes(episode(), "2026-11-24")[0]
+                prior.update(role="Named participant", verification=status,
+                             evidenceUrl="https://example.com/author",
+                             evidenceNote="Individual attribution, not a series-wide assumption.")
+                original = copy.deepcopy(prior)
+                refreshed = parse_episodes(episode(title="Updated source title"), "2026-11-25")
+                result = preserve_appearance_evidence(refreshed, [prior])[0]
+                self.assertEqual(result["title"], "Updated source title")
+                for field in ("role", "verification", "evidenceUrl", "evidenceNote", "checked"):
+                    self.assertEqual(result[field], prior[field])
+                self.assertEqual(prior, original)
+
 
 class CatalogueTests(unittest.TestCase):
     @classmethod
@@ -74,9 +89,11 @@ class CatalogueTests(unittest.TestCase):
         first = copy.deepcopy(next(record for record in self.curated if "/ba-p/" in record["url"]))
         second = copy.deepcopy(first)
         second["id"] += "-alias"
-        second["url"] = second["url"].replace("/ba-p/", "/m-p/") + "?search-result-uid=example"
-        with self.assertRaisesRegex(ValueError, "Duplicate SAP content"):
-            validate([first, second])
+        for alias in ("m-p", "ec-p", "ev-p"):
+            with self.subTest(alias=alias):
+                second["url"] = first["url"].replace("/ba-p/", f"/{alias}/") + "?search-result-uid=example"
+                with self.assertRaisesRegex(ValueError, "Duplicate SAP content"):
+                    validate([first, second])
 
     def test_public_payload_matches_inputs(self):
         payload = json.loads((ROOT / "site" / "catalogue.json").read_text(encoding="utf-8"))
@@ -170,6 +187,16 @@ Unrelated text and page navigation are not catalogue metadata.
             with self.subTest(text=text[:40]):
                 with self.assertRaises(ValueError):
                     parse_results(text)
+
+    def test_search_import_does_not_replace_reviewed_or_reference_evidence(self):
+        records, _, _ = merge_results([], parse_results(self.result()), "2026-11-24")
+        for status in ("Source reviewed", "User-provided reference"):
+            with self.subTest(status=status):
+                records[0].update(verification=status, evidenceNote="Item-level authorship evidence.")
+                original = copy.deepcopy(records)
+                merged, added, updated = merge_results(records, parse_results(self.result()), "2026-11-25")
+                self.assertEqual(merged, original)
+                self.assertEqual((added, updated), (0, 0))
 
 
 if __name__ == "__main__":
