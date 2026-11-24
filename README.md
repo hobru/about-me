@@ -55,6 +55,8 @@ The supplied list's SAPinsider 2024 speaker claim conflicts with the freshly rev
 
 The website uses warm neutral surfaces, a rose accent, local system fonts, light/dark mode, keyboard-accessible controls, and a mobile layout. It deliberately avoids third-party embeds, tracking, copied articles, media downloads, and externally loaded images/fonts.
 
+Source and external links open in a new tab/window with opener and referrer protection. In-page navigation stays in the current page, and the catalogue download remains a download.
+
 The landing page borrows hierarchy, a prominent primary action, nearby evidence, and more deliberate spacing from [elayadesign's landing-page design guide](https://github.com/elayadesign/ai-design-skills/blob/main/skills/landing-page-design/SKILL.md), as inspiration rather than a specification. It remains a personal editorial homepage, not a sales funnel: a real SIT Weinheim recording anchors the hero, catalogue counts retain their qualifications, and Listen / Read / Build shortcuts filter the existing library. There are no invented endorsements or testimonials, unnecessary signup forms, or mandatory scroll effects. The existing theme and system fonts are preserved; entrance and hover movement respect reduced-motion preferences.
 
 ## Files and maintenance
@@ -116,23 +118,30 @@ The SAP Community importer removes search tracking parameters and deduplicates r
 
 The build reads only the two named public datasets and rejects known Microsoft internal source hosts in record URLs. This is a guardrail, **not a general data-loss-prevention classifier**: manually review new public records and every deployment artifact.
 
-## Hosting options
+## Hosting and deployment
 
-**Recommendation: keep GitHub as the source of truth and publish the static `site` artifact to GitHub Pages; use bruchelt.de as its custom domain if desired.** The same files also work with the existing bruchelt.de web host.
+**Primary site: [https://hobru.github.io/about-me/](https://hobru.github.io/about-me/).** GitHub Pages serves the HTTPS site. `http://holger.bruchelt.de/` is intended as an independent copy on the existing hosting account, not a GitHub Pages custom domain.
+
+The repository is public, including its research inputs and history. **Needs review** excludes a record from the website; it is not access control for research data. The internal companion remains outside both Git and all deployment artifacts.
 
 ### GitHub Pages
 
-1. Review publication permissions and applicable legal notices; keep the private internal catalogue out of Git and deployment artifacts.
-2. This repository is currently private. Confirm that the account's plan supports Pages from private repositories, or choose another host. A private source repository does **not** make a published Pages site private.
-3. In repository Settings > Pages, choose GitHub Actions. A future deployment workflow should build with `python tools\build.py`, run the checks above, and upload **only `site`** with the official Pages artifact action. Never upload the repository root or session artifacts.
-4. Grant the deployment job only the required Pages permissions (`contents: read`, `pages: write`, `id-token: write`), use the `github-pages` environment, and deploy with the official Pages deploy action.
-5. The relative asset URLs work both at a project path such as `/about-me/` and at a custom-domain root. Nothing is published by this change; no deployment workflow or remote settings were changed.
+The [Publish website workflow](.github/workflows/pages.yml) runs on pushes to `main` and can also be started manually:
 
-### bruchelt.de
+1. Check out the source and build the public catalogue offline.
+2. Run the Python checks and JavaScript syntax check.
+3. Upload **only `site`** as the Pages artifact and as the downloadable **static-site** artifact.
+4. Deploy through the `github-pages` environment with Pages write and OIDC permissions restricted to the deployment job. Actions are pinned to verified release commit SHAs.
 
-Either upload the contents of `site` to the current web host, or configure the domain in GitHub Pages after verifying domain ownership. Only then change the relevant DNS records using GitHub's current custom-domain guidance and enable HTTPS. Decide first whether the apex or `www` name is canonical; don't overwrite existing DNS/email records. A CNAME file is deliberately not included until that decision is made.
+GitHub Pages has HTTPS enforcement enabled. Keep its custom-domain setting empty and do not add `site/CNAME`: binding `holger.bruchelt.de` would redirect the GitHub address away from the requested primary site.
 
-The existing domain could not be fetched in this research environment (connection/TLS failure), so its current layout, hosting, ownership configuration, and available paths were not assessed.
+### Independent copy at holger.bruchelt.de
+
+Download **static-site** from a successful workflow run, or build locally and use the contents of `site`. Extract/upload those files directly into the document root assigned to `holger.bruchelt.de` through the hosting provider's authorized file manager, FTPS, or SFTP. Do not upload the repository root, raw research inputs, or session artifacts.
+
+The same files work over HTTP and HTTPS and at either a project path or domain root: all application assets are relative, and no server runtime or secure-context API is required. The canonical link identifies the HTTPS GitHub page as primary without redirecting visitors away from the mirror.
+
+Keep the existing subdomain DNS and the parent domain's website/email settings unchanged. The GitHub workflow does not upload to the separate hosting account; the copy must be refreshed there after updates. Hosting access and successful retrieval of the mirror have not been verified.
 
 Before a real public launch, review applicable German imprint/privacy requirements, accessibility, branding, and publication permissions. No legal notice or personal address has been invented.
 

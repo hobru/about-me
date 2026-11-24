@@ -1,4 +1,5 @@
 import copy
+from html.parser import HTMLParser
 import json
 import unittest
 
@@ -128,6 +129,30 @@ class CatalogueTests(unittest.TestCase):
         self.assertNotIn('src="./', html)
         self.assertNotIn('href="./', html)
         self.assertLess(html.index('id="results"'), html.index('"use strict"'))
+
+    def test_static_source_links_open_separately_without_changing_navigation_or_downloads(self):
+        class Anchors(HTMLParser):
+            def __init__(self):
+                super().__init__()
+                self.anchors = []
+
+            def handle_starttag(self, tag, attrs):
+                if tag == "a":
+                    self.anchors.append(dict(attrs))
+
+        pages = [(ROOT / "site" / "index.html").read_text(encoding="utf-8"),
+                 standalone(json.dumps({"records": []}))]
+        for html in pages:
+            parser = Anchors()
+            parser.feed(html)
+            for anchor in parser.anchors:
+                href = anchor.get("href", "")
+                with self.subTest(href=href):
+                    if "download" in anchor or href.startswith("#"):
+                        self.assertNotEqual(anchor.get("target"), "_blank")
+                    else:
+                        self.assertEqual(anchor.get("target"), "_blank")
+                        self.assertTrue({"noopener", "noreferrer"} <= set(anchor.get("rel", "").split()))
 
 
 class SapExcerptTests(unittest.TestCase):

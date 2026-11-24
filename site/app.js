@@ -27,6 +27,8 @@
   function link(label, url) {
     const node = element("a", label);
     node.href = url;
+    node.target = "_blank";
+    node.rel = "noopener noreferrer";
     return node;
   }
 
